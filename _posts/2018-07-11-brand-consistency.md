@@ -1,7 +1,7 @@
 ---
 title: Decoupled back-ends in the age of brand consistency
 categories:
- - Web Development
+ - web-development
 tags:
  - nodejs
  - marketing
