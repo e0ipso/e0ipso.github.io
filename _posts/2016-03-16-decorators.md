@@ -12,7 +12,7 @@ _This is a re-post of the article I wrote for the [Lullabot blog](https://www.lu
 <h2>Design patterns</h2>
 
 <a href="https://en.wikipedia.org/wiki/Software_design_pattern">Software design patterns</a>&nbsp;are general and <strong>reusable</strong>&nbsp;software design <strong>solutions</strong>&nbsp;to a defined problem. They were popularized in 1994 by the <em>“Gang of Four”</em>&nbsp;after their book <a href="http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612">Design Patterns: Elements of Reusable Object-Oriented Software</a>.
-
+<!-- more -->
 These generic solutions are not snippets of code, ready to be dropped in your project, nor a library that can be imported and reused. Instead they are a templated solution to the common software challenges in your project. Design patterns can also be seen as <strong>best practises&nbsp;</strong>when encountering an identified problem.
 
 With Drupal 8’s leap into modern PHP, design patterns are going to be more and more relevant to us. The change from (mostly) procedural code to (a vast majority of) object oriented code is going to take the Drupal community at large through a journey of <strong>adaptation to the new programming paradigm</strong>. Quoting the aforementioned <em>Design Patterns: Elements of Reusable Object-Oriented Software</em>:
