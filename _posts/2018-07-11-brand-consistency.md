@@ -10,6 +10,8 @@ tags:
  - patterns
 canonical_path: https://www.lullabot.com/articles/decoupled-backends-in-the-age-of-brand-consistency
 ---
+_This is a re-post from the article I wrote for the [Lullabot blog](https://www.lullabot.com/articles/decoupled-backends-in-the-age-of-brand-consistency)_
+
 It may sound surprising to hear about brand consistency from a back-end developer. This is traditionally a topic for UX and marketing experts. Nevertheless, brand consistency is a powerful trend that’s affecting how we architect content APIs.
 
 One of the ways I contribute to the Drupal API-First Initiative, aside from all the [decoupled modules](https://www.drupal.org/u/e0ipso), is by providing my point of view from the implementation side. Some would call that real world™ experience with client projects. This means that I need to maintain a pragmatic point of view to make sure that we can do with Drupal what clients need from us. While being vigilant on the trends affecting our industry, I have discovered that there is a strong tendency for digital projects to aim for brand consistency. How does that impact implementation?
