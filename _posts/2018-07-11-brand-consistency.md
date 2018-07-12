@@ -10,7 +10,7 @@ tags:
  - patterns
 canonical_path: https://www.lullabot.com/articles/decoupled-backends-in-the-age-of-brand-consistency
 ---
-_This is a re-post from the article I wrote for the [Lullabot blog](https://www.lullabot.com/articles/decoupled-backends-in-the-age-of-brand-consistency)_
+_This is a re-post of the article I wrote for the [Lullabot blog](https://www.lullabot.com/articles/decoupled-backends-in-the-age-of-brand-consistency)._
 
 It may sound surprising to hear about brand consistency from a back-end developer. This is traditionally a topic for UX and marketing experts. Nevertheless, brand consistency is a powerful trend that’s affecting how we architect content APIs.
 
