@@ -79,7 +79,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT"
+keywords: "drupal, web, development"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -439,7 +439,7 @@ gitalk:
 #google_site_verification:
 
 # Google Analytics
-#google_analytics:
+google_analytics: UA-17412882-1
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
