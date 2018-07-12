@@ -91,6 +91,7 @@ In our particular case, we have been able to **reduce the consumers to renderers
 2. With the name of the screen and the extracted parameters the consumer makes a single HTTP request to the BFF.
 3. The BFF responds with all the data needed for rendering in a shape ready for rendering. The consumer takes that and renders all the components.
 4. The consumer finally adds all the business logic that is exclusive of the frontend on top of the rendered output. This includes ads, analytics, etc.
+
 ## Pros and cons
 The pros of this approach are stated throughout the document, but to summarize they are:
 
@@ -105,6 +106,7 @@ On the other hand, there are some cons:
 - Requires a dedicated backend team. You cannot just install an API generator, like Contenta CMS, that is configured in the UI and serves a flexible JSON API with zero configuration. Now you need a dedicated backend team to build your BFF. However, chances are that your project already has a dedicated backend team.
 - Brings back the bikeshedding. In DrupalCon Baltimore [I talked about](https://events.drupal.org/baltimore2017/sessions/advanced-web-services-json-api) how the JSON API module stops the bikeshedding. In this new paradigm, we are back to discussing things like the shape of the response, the names in it, how to expose these responses, etc.
 - It requires cross-consumer collaboration. This is because you want to design a BFF that works well for all current consumers and future ones. Collaboration across different teams can be a challenge depending on the organization.
+
 ## To summarize
 
 An organization that can make the compromise of a consistent design across consumers can simplify their omnichannel strategy. One way to do that is to move the complexity from several consumers to a single one, that lives in the back-end.
