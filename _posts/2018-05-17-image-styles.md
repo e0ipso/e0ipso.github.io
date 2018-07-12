@@ -9,7 +9,7 @@ canonical_path: https://www.lullabot.com/articles/decoupled-drupal-hard-problems
 _This is a re-post of the article I wrote for the [Lullabot blog](https://www.lullabot.com/articles/decoupled-drupal-hard-problems-image-styles)._
 
 As part of the <a href="https://www.drupal.org/node/2757967">API-First Drupal initiative</a>, and the <a href="http://www.contentacms.org">Contenta CMS</a> community effort, we have come up with a solution for using Drupal image styles in a decoupled setup. Here is an overview of the problems we sought to solve:
-
+<!-- more -->
 <ul>
 	<li>Image styles are tied to the designs of the consumer, therefore belonging to the front-end. However, there are technical limitations in the front-end that make it impossible to handle them there.</li>
 	<li>Our HTTP API serves an unknown number of consumers, but we don't want to expose all image styles to all consumers for all images. Therefore, consumers need to declare their needs when making API requests.</li>
