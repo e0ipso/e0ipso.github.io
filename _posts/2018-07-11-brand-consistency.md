@@ -8,7 +8,7 @@ tags:
  - decoupled
  - BFF
  - patterns
-canonical_path: https://www.lullabot.com/articles/decoupled-back-ends-in-the-age-of-brand-consistency
+canonical_path: https://www.lullabot.com/articles/decoupled-backends-in-the-age-of-brand-consistency
 ---
 It may sound surprising to hear about brand consistency from a back-end developer. This is traditionally a topic for UX and marketing experts. Nevertheless, brand consistency is a powerful trend that’s affecting how we architect content APIs.
 
