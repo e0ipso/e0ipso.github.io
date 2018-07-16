@@ -1,5 +1,5 @@
 ---
-title: Introducing ContentaJS
+title: Introducing Contenta JS
 categories:
  - web-development
 tags:
