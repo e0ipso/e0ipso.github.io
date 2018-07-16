@@ -8,15 +8,17 @@ tags:
  - Decoupled Drupal
  - Drupal Development
 ---
-It seems it was yesterday, but Contenta CMS got the first stable [LINK] release more than a year ago. In the mean time
-we have started using Media in core, we improved Open API support, provided several fixes for the Schemata module,
-written and introduced JSON RPC, and made plans to transition to the Umami content model from Drupal core. A lot has
-happened behind the scenes.
+It seems it was yesterday, but [Contenta CMS got the first
+stable](https://medium.com/@mateu.aguilo.bosch/contenta-cms-reaches-1-0-27cfcc3c70c6) release more than a year ago. In
+the mean time we have started using Media in core, we improved Open API support, provided several fixes for the Schemata
+module, written and introduced JSON RPC, and made plans to transition to the Umami content model from Drupal core. A lot
+has happened behind the scenes.
 <!-- more -->
-Contenta CMS is being used as is and it's inspiring the custom development of decoupled Drupal applications. Both of
-these things were primary goals for the project. But many times Drupal, and hence Contenta CMS was only one part of the
-back-end. There is almost no project where you don't need a nodejs proxy or back-end  in front of Drupal. That is why we
-started working on a nodejs starter kit for your decoupled Drupal projects. We call this [Contenta JS](https://github.com/contentacms/contentajs).
+[Contenta CMS](https://github.com/contentacms/contenta_jsonapi) is being used as is and it's inspiring the custom
+development of decoupled Drupal applications. Both of these things were primary goals for the project. But many times
+Drupal, and hence Contenta CMS was only one part of the back-end. There is almost no project where you don't need a
+nodejs proxy or back-end  in front of Drupal. That is why we started working on a nodejs starter kit for your decoupled
+Drupal projects. We call this [Contenta JS](https://github.com/contentacms/contentajs).
 
 Until now, each agency had their own nodejs back-end template that they used and evolved in every project. There has not
 been much collaboration in that space. This is not the Drupal way. Contenta JS is a nodejs project that brings
