@@ -24,8 +24,6 @@ Until now, each agency had their own nodejs back-end template that they used and
 been much collaboration in that space. This is not the Drupal way. Contenta JS is a nodejs project that brings
 consistency to this space.
 
-![Contenta JS architecture diagram](https://raw.githubusercontent.com/contentacms/contentajs/master/.emdaer/docs/assets/contentacms-node.png)
-
 The vision for this project is to create a set of common practices so agencies can collaborate on creating the best
 software possible in nodejs, just like we do with Drupal. Through this collaboration we will be able to get features
 that we need in every project, for free. Today Contenta JS already comes with many of these features:
@@ -41,6 +39,8 @@ that we need in every project, for free. Today Contenta JS already comes with ma
   - A [Redis](http://redis.io) integration via the optional [@contentacms/redis](https://github.com/contentacms/contentajsRedis).
   - Type safe development environment using [Flow](http://flow.org).
   - [Configurable CORS](https://github.com/contentacms/contentajs/blob/master/config/default.yml#L66-L85).
+
+![Contenta JS architecture diagram](https://raw.githubusercontent.com/contentacms/contentajs/master/.emdaer/docs/assets/contentacms-node.png)
 
 Watch the introduction video for Contenta JS (6 minutes).
  
