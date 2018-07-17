@@ -48,7 +48,9 @@ Watch the introduction video for **Contenta JS** (6 minutes).
 <iframe src="https://www.youtube.com/embed/6bdbqo2tETg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 If we collaborate under the same space we can come up with new modules that do things like *React server-side rendering
-with one command*, or *a Drupal API customizer*, or *aggregate multiple services in a pluggable way*, etc. If this is
-something you are passionate about and want to collaborate on it, join the
-[#contenta](https://drupal.slack.com/messages/C5A70F7D1) Slack channel. You can also create an issue (or a PR!) in the
-[GitHub project](https://github.com/contentacms/contentajs).
+with one command*, or *a Drupal API customizer*, or *aggregate multiple services in a pluggable way*, etc.
+
+Join the [#contenta](https://drupal.slack.com/messages/C5A70F7D1) Slack channel if this is something you are passionate
+about and want to collaborate on it. You can also create an issue (or a PR!) in the [GitHub
+project](https://github.com/contentacms/contentajs). Together we and make a wholesome decoupled Drupal backend from
+start to end.
