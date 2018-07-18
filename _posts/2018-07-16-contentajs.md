@@ -8,27 +8,25 @@ tags:
  - Decoupled Drupal
  - Drupal Development
 ---
-It seems it was yesterday, but [Contenta CMS got the first
+Though it seems like yesterday, [Contenta CMS got the first
 stable](https://medium.com/@mateu.aguilo.bosch/contenta-cms-reaches-1-0-27cfcc3c70c6) release more than a year ago. In
-the mean time we have started using Media in core, we improved Open API support, provided several fixes for the Schemata
-module, written and introduced JSON RPC, and made plans to transition to the Umami content model from Drupal core. A lot
-has happened behind the scenes.
+the meantime, Contenta CMS started using Media in core, improved Open API support, provided several fixes for the
+Schemata module, written and introduced JSON RPC, and made plans to transition to the Umami content model from Drupal
+core. A lot has happened behind the scenes.
 <!-- more -->
-[Contenta CMS](https://github.com/contentacms/contenta_jsonapi) is being used as is and it's inspiring the custom
-development of decoupled Drupal applications. Both of these things were primary goals for the project. But many times
-Drupal, and hence Contenta CMS was only one part of the back-end. [You need a nodejs
-back-end](https://github.com/contentacms/contentajs#why)  in front of Drupal in almost any decoupled project. That is
-why we started working on a nodejs starter kit for your decoupled Drupal projects. We call this [**Contenta
-JS**](https://github.com/contentacms/contentajs).
+I’m inspired to hear of each new instance where [Contenta CMS](https://github.com/contentacms/contenta_jsonapi) is being
+used both out-of-the-box and as part of a custom decoupled Drupal architecture. Both use cases were primary goals for
+the project. In many cases, Drupal, and hence Contenta CMS, is only part of the back-end. Most decoupled projects
+require a [nodejs back-end](https://github.com/contentacms/contentajs#why) proxy to sit between the various front-end
+consumers and Drupal. That is why we started working on a nodejs starter kit for your decoupled Drupal projects. We call
+this [**Contenta JS**](https://github.com/contentacms/contentajs).
 
 Until now, each agency had their own nodejs back-end template that they used and evolved in every project. There has not
-been much collaboration in that space. This is not the Drupal way. **Contenta JS** is a nodejs project that brings
-consistency to this space.
+been much collaboration in this space. **Contenta JS** is meant to bring consistency and collaboration—a set of common
+practices so agencies can focus on creating the best software possible with nodejs, just like we do with Drupal. Through
+this collaboration, we will be able to get features that we need in every project, for free. Today **Contenta JS**
+already comes with many of these features:
 
-The vision for this project is to create a set of common practices so agencies can collaborate on creating the best
-software possible in nodejs, just like we do with Drupal. Through this collaboration we will be able to get features
-that we need in every project, for free. Today Contenta JS already comes with many of these features:
-  
   - Automatic integration with the API exposed by your Contenta CMS install. Just provide the URL of the site and
     everything is taken care of for you.
       - JSON API integration.
@@ -47,10 +45,10 @@ Watch the introduction video for **Contenta JS** (6 minutes).
 
 <iframe src="https://www.youtube.com/embed/6bdbqo2tETg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-If we collaborate under the same space we can come up with new modules that do things like *React server-side rendering
-with one command*, or *a Drupal API customizer*, or *aggregate multiple services in a pluggable way*, etc.
+Combining the community’s efforts, we can come up with new modules that do things like *React server-side rendering with
+one command*, or *a Drupal API customizer*, or *aggregate multiple services in a pluggable way*, etc.
 
 Join the [#contenta](https://drupal.slack.com/messages/C5A70F7D1) Slack channel if this is something you are passionate
 about and want to collaborate on it. You can also create an issue (or a PR!) in the [GitHub
-project](https://github.com/contentacms/contentajs). Together we and make a wholesome decoupled Drupal backend from
+project](https://github.com/contentacms/contentajs). Together, we can make a wholistic decoupled Drupal backend from
 start to end.
