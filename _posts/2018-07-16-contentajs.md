@@ -50,5 +50,5 @@ one command*, or *a Drupal API customizer*, or *aggregate multiple services in a
 
 Join the [#contenta](https://drupal.slack.com/messages/C5A70F7D1) Slack channel if this is something you are passionate
 about and want to collaborate on it. You can also create an issue (or a PR!) in the [GitHub
-project](https://github.com/contentacms/contentajs). Together, we can make a wholistic decoupled Drupal backend from
+project](https://github.com/contentacms/contentajs). Together, we can make a holistic decoupled Drupal backend from
 start to end.
