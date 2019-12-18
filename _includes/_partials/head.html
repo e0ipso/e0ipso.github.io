@@ -26,7 +26,6 @@
 {% endif %}
 
 
-{% comment %} #238, Disable Baidu tranformation {% endcomment %}
 <meta http-equiv="Cache-Control" content="no-transform" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 
@@ -38,11 +37,6 @@
 
 {% if site.yandex_site_verification %}
   <meta name="yandex-verification" content="{{ site.yandex_site_verification }}" />
-{% endif %}
-
-
-{% if site.baidu_site_verification %}
-  <meta name="baidu-site-verification" content="{{ site.baidu_site_verification }}" />
 {% endif %}
 
 
@@ -117,13 +111,6 @@
       userId: '{{ site.duoshuo_info.user_id | default: }}',
       author: '{{ site.duoshuo_info.admin_nickname | default: __.author }}'
     },
-    algolia: {
-      applicationID: '{{ site.algolia.applicationID }}',
-      apiKey: '{{ site.algolia.apiKey }}',
-      indexName: '{{ site.algolia.indexName }}',
-      hits: {{ site.algolia_search.hits | jsonify }},
-      labels: {{ site.algolia_search.labels | jsonify }}
-    }
   };
 </script>
 
