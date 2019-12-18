@@ -16,34 +16,8 @@
   <link href="{{ pace_css_uri }}" rel="stylesheet">
 {% endif %}
 
-
-{% if site.han %}
-  {% assign Han_uri = site.vendors._internal | append: '/Han/dist/han.min.css?v=3.3' | relative_url %}
-  {% if site.vendors.Han %}
-    {% assign Han_uri = site.vendors.Han %}
-  {% endif %}
-  <link rel="stylesheet" media="all" href="{{ Han_uri }}">
-{% endif %}
-
-
 <meta http-equiv="Cache-Control" content="no-transform" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
-
-
-{% if site.google_site_verification %}
-  <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
-{% endif %}
-
-
-{% if site.yandex_site_verification %}
-  <meta name="yandex-verification" content="{{ site.yandex_site_verification }}" />
-{% endif %}
-
-
-{% if site.qihu_site_verification %}
-  <meta name="360-site-verification" content="{{ site.qihu_site_verification }}" />
-{% endif %}
-
 
 {% if site.fancybox %}
   {% assign fancybox_css_uri = site.vendors._internal | append: '/fancybox/source/jquery.fancybox.css?v=2.1.5' | relative_url %}
@@ -52,14 +26,6 @@
   {% endif %}
   <link href="{{ fancybox_css_uri }}" rel="stylesheet" type="text/css" />
 {% endif %}
-
-{% include _partials/head/external-fonts.html %}
-
-{% assign font_awesome_uri = site.vendors._internal | append: '/font-awesome/css/font-awesome.min.css?v=4.6.2' | relative_url %}
-{% if site.vendors.fontawesome %}
-  {% assign font_awesome_uri = site.vendors.fontawesome %}
-{% endif %}
-<link href="{{ font_awesome_uri }}" rel="stylesheet" type="text/css" />
 
 <link href="{{ site.css | relative_url }}/main.css?v={{ site.version }}" rel="stylesheet" type="text/css" />
 
@@ -83,36 +49,6 @@
 {% if site.favicon %}
   <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | relative_url }}?v={{ site.version }}" />
 {% endif %}
-
-
-{% if site.facebook_sdk.enable and site.facebook_sdk.webmaster %}
-  <meta property="fb:admins" content="{{ site.facebook_sdk.fb_admin }}" />
-  <meta property="fb:app_id" content="{{ site.facebook_sdk.app_id }}" />
-{% endif %}
-
-
-{% assign twitter_id = site.twitter %}
-{% assign google_plus = site.google_plus %}
-{% assign fb_admins = site.fb_admins %}
-{% assign fb_app_id = site.fb_app_id %}
-{% include _helper/open_graph.html %}
-{{ open_graph }}
-
-{% comment %} Export some HEXO Configurations to Front-End {% endcomment %}
-<script type="text/javascript" id="hexo.configurations">
-  var NexT = window.NexT || {};
-  var CONFIG = {
-    root: '{{ site.baseurl }}',
-    scheme: '{{ site.scheme }}',
-    sidebar: {{ site.sidebar | jsonify }},
-    fancybox: {{ site.fancybox }},
-    motion: {{ site.use_motion }},
-    duoshuo: {
-      userId: '{{ site.duoshuo_info.user_id | default: }}',
-      author: '{{ site.duoshuo_info.admin_nickname | default: __.author }}'
-    },
-  };
-</script>
 
 {% comment %} Canonical, good for google search engine (SEO) : https://support.google.com/webmasters/answer/139066 {% endcomment %}
 {% if site.canonical %}
