@@ -157,55 +157,6 @@ scheme: Muse
 
 
 # ---------------------------------------------------------------
-# Font Settings
-# - Find fonts on Google Fonts (https://www.google.com/fonts)
-# - All fonts set here will have the following styles:
-#     light, light italic, normal, normal italic, bold, bold italic
-# - Be aware that setting too much fonts will cause site running slowly
-# - Introduce in 5.0.1
-# ---------------------------------------------------------------
-font:
-  enable: true
-
-  # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
-  host:
-
-  # Global font settings used on <body> element.
-  global:
-    # external: true will load this font family from host.
-    external: true
-    family: Lato
-
-  # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
-  # Fallback to `global` font settings.
-  headings:
-    external: true
-    family:
-
-  # Font settings for posts
-  # Fallback to `global` font settings.
-  posts:
-    external: true
-    family:
-
-  # Font settings for Logo
-  # Fallback to `global` font settings.
-  # The `size` option use `px` as unit
-  logo:
-    external: true
-    family:
-    size:
-
-  # Font settings for <code> and code blocks.
-  codes:
-    external: true
-    family:
-    size:
-
-
-
-
-# ---------------------------------------------------------------
 # Sidebar Settings
 # ---------------------------------------------------------------
 
@@ -420,13 +371,6 @@ gitalk:
 
 # Share
 #duoshuo_share: true
-
-# Google Webmaster tools verification setting
-# See: https://www.google.com/webmasters/
-#google_site_verification:
-
-# Google Analytics
-google_analytics: UA-17412882-1
 
 # Yandex Webmaster tools verification setting
 # See: https://webmaster.yandex.ru/
