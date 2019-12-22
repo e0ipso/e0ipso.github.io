@@ -7,7 +7,7 @@ tags:
   - Open Source
 ---
 Mercè's smart phone screen broke again. Luckily I was able to get a screen replacement for her old OnePlus 3T. Putting everything back was a challenge in itself, but thanks to [this YouTube](https://invidio.us/watch?v=re_XPxRkxFQ) I was able to succeed.
-
+<!-- more -->
 I tried to re-install the factory defaults, but I found out that there was additional damage on top of the screen andn some features were unusable. I decided to give Lineage OS a try, with a focus on privacy. Using the guidelines of [this video](https://invidio.us/watch?v=WSNGK9gmdpg) I was able to put everything together. I had to pivot in some cases to make things work for my case, but I didn't feel I knew what I was doing yet I succeeded.
 
 At some point I was cleaning up bloatware and I deleted too much, so I had to star over. It is very hard to brick a device when doing these things, so I think that if you are one the fence with this, you should give it a try.
