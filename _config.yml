@@ -166,7 +166,7 @@ scheme: Muse
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 social:
   GitHub: https://github.com/e0ipso
-  Twitter: https://twitter.com/e0ipso
+  Mastodon: https://fosstodon.org/@e0ipso
 #  Weibo: your-weibo-url
 #  DouBan: your-douban-url
 #  ZhiHu: your-zhihu-url
@@ -177,12 +177,12 @@ social:
 #   Key is the name of the item and value is the name of FontAwesome icon. Key is case-senstive.
 #   When an globe mask icon presenting up means that the item has no mapping icon.
 social_icons:
-  enable: true
+  enable: false
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
-  Twitter: twitter
-#  Weibo: weibo
+  # Twitter: twitter
+  # Weibo: weibo
 
 
 # Sidebar Avatar
@@ -218,10 +218,10 @@ sidebar:
   #  - always  expand for all pages automatically
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
-  display: post
+  #display: post
   #display: always
   #display: hide
-  #display: remove
+  display: remove
 
   # Sidebar offset from top menubar in pixels.
   offset: 12

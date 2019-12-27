@@ -12,8 +12,9 @@ being the coordinator of the official [API-First initiative](https://www.drupal.
 
 I have an increasing interest in the privacy of my data and those who surround
 me, so expect that type of content in my blog. I don't have social media, but I
-am responsive to email <pre>mateu at mateuaguilo.com</pre> and through my
-[Drupal.org contact form](https://www.drupal.org/user/550110/contact). I am also
+am responsive to email <code>mateu at mateuaguilo.com</code> and through my
+[Drupal.org contact form](https://www.drupal.org/user/550110/contact). I share
+several projects in [GitHub as e0ipso](https://github.com/e0ipso). I am also
 starting to use [Mastodon](https://fosstodon.org/@e0ipso), but I am not sure if
 that will stick.
 
