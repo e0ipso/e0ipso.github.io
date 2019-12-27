@@ -1,4 +1,14 @@
-One the privacy higene topic, one cool trick that I learned is that I can configure Gnome to auto connect to a VPN when a certain wifi network is used. This may be available to some distributions in the control panels, but I couldn't find it in mine. To configure this, go to your terminal and type:
+---
+title: Gnome's Network Editor
+categories:
+  - privacy
+tags:
+  - Privacy
+  - Open Source
+---
+One the privacy higene topic, one cool trick that I learned is that I can configure Gnome to auto connect to a VPN when a certain wifi network is used.
+<!-- more -->
+This may be available to some distributions in the control panels, but I couldn't find it in mine. To configure this, go to your terminal and type:
 
 ```
 nm-connection-editor
