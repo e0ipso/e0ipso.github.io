@@ -10,7 +10,7 @@ Today I was included in a conversation in Drupal Slack that reminded me how
 important it is to take the time to learn one tool well.
 
 In this case the issue was solved by creating a custom data type. This is the conversation log.
-
+<!-- more -->
 > **wimleers (he/him)  6 hours ago**
 > So you want to normalize the data for the `administrative_area` property in the address field type differently.
 > You totally can do this!
