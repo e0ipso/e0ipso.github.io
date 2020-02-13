@@ -4,7 +4,7 @@ categories:
  - drupal
 tags:
  - Open source
- - Drupal
+ - Drupal Development
 canonical_path: https://www.lullabot.com/articles/maintainable-code-drupal-wrapped-entities
 ---
 _This is a re-post of the article I wrote for the [Lullabot blog](https://www.lullabot.com/articles/maintainable-code-drupal-wrapped-entities)._
