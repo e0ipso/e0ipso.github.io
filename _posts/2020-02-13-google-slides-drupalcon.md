@@ -87,7 +87,8 @@ as well. In any case, I think there are solutions to this.
 
 Bethany Lister told me she is certainly happy to discuss more when the time comes. So if you want to join the
 discussion to propose ideas, or to express agreement with the goals of this conversation, drop a line in
-the [`#session-help` Slack channel](https://drupal.slack.com/archives/CCTDENZK7).
+[this Drupal.org issue](https://www.drupal.org/project/minneapolis2020/issues/3113739). The Drupal Association is
+already working on this.
 
 🤞
 
