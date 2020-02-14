@@ -22,7 +22,7 @@ opened I was surprised to read:
 
 ![Screenshot of the C4P page](/assets/images/google-slides-dcon.png)
 
-I did not like the idea of my favorite Open Source project forcing the use of unethical software only in the name of
+I did not like the idea of my favorite Open Source project forcing the use of [unethical](#unethical) software only in the name of
 convenience. I have to admit that I also went down a mental rabbit hole of what could be the reasons for such exotic
 choice coming from an Open Source association. As [Brené Brown](https://brenebrown.com) reminds us:
 
@@ -90,3 +90,14 @@ discussion to propose ideas, or to express agreement with the goals of this conv
 the [`#session-help` Slack channel](https://drupal.slack.com/archives/CCTDENZK7).
 
 🤞
+
+<div id="unethical"></div>
+_I called Google pactices "unethical" in the text above. Criticism of Google includes concern for:_
+
+  - [Tax avoidance](https://en.wikipedia.org/wiki/Criticism_of_Google#Tax_avoidance).
+  - [Antitrust](https://en.wikipedia.org/wiki/Criticism_of_Google#Antitrust).
+  - [Copyright issues](https://en.wikipedia.org/wiki/Criticism_of_Google#Copyright_issues).
+  - [Privacy](https://en.wikipedia.org/wiki/Criticism_of_Google#Privacy).
+  - [Censorship](https://en.wikipedia.org/wiki/Criticism_of_Google#Censorship).
+  - [Labor practices](https://en.wikipedia.org/wiki/Criticism_of_Google#Labor_practices).
+  - [And](https://en.wikipedia.org/wiki/Criticism_of_Google#Criticism_of_search_engine) [more](https://en.wikipedia.org/wiki/Criticism_of_Google#Other).
