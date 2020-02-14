@@ -22,7 +22,9 @@ opened I was surprised to read:
 
 ![Screenshot of the C4P page](/assets/images/google-slides-dcon.png)
 
-As [Brené Brown](https://brenebrown.com) reminds us:
+I did not like the idea of my favorite Open Source project forcing the use of unethical software only in the name of
+convenience. I have to admit that I also went down a mental rabbit hole of what could be the reasons for such exotic
+choice coming from an Open Source association. As [Brené Brown](https://brenebrown.com) reminds us:
 
 > In the absence of data, you'll make up a story
 
