@@ -48,6 +48,11 @@ that took place in public channels_.
 > 
 > However, I do appreciate (and applaud) the concept of using an open format, at least. I'm no fan of Google Slides - I do all my presentations from Keynote, even my DA ones.
 > I will do some enquiries as to what is possible.
+>
+> [...]
+>
+> I’m a bit of a fan of slides.com, @Gábor Hojtsy (he/him). Indeed, I tend to export mine from Keynote and import there
+> simply as a place to share them - https://slides.com/rachel_norfolk
 
 Bethany Lister also provided a helpful clarification:
 
@@ -74,8 +79,8 @@ In light of that fact I started brainstorming about possible solutions.
 >   * Checks all the administrative checkboxes
 >   * Only requires an account on drupal.org (which is reasonable given you are at DrupalCon)
 
-Note that even I only mentioned the PDF format, however I believe that people could opt-in to Google Slides in the issue as
-well. In any case, I think there are solutions to this.
+Note that even I only mentioned the PDF format, however I believe that people could opt-in to Google Slides in the issue
+as well. In any case, I think there are solutions to this.
 
 > **e0ipso**
 > any next steps I can help with? I'd love to help sort this out.
