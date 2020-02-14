@@ -92,6 +92,7 @@ the [`#session-help` Slack channel](https://drupal.slack.com/archives/CCTDENZK7)
 🤞
 
 <div id="unethical"></div>
+
 _I called Google pactices "unethical" in the text above. Criticism of Google includes concern for:_
 
   - [Tax avoidance](https://en.wikipedia.org/wiki/Criticism_of_Google#Tax_avoidance).
