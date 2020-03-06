@@ -103,3 +103,6 @@ _I called Google pactices "unethical" in the text above. Criticism of Google inc
   - [Censorship](https://en.wikipedia.org/wiki/Criticism_of_Google#Censorship).
   - [Labor practices](https://en.wikipedia.org/wiki/Criticism_of_Google#Labor_practices).
   - [And](https://en.wikipedia.org/wiki/Criticism_of_Google#Criticism_of_search_engine) [more](https://en.wikipedia.org/wiki/Criticism_of_Google#Other).
+
+### Edit
+Please read on Google [Slides no Longer Mandatory](/web-development/2020/03/06/google-slides-no-longer-mandatory) to learn how this concluded.
