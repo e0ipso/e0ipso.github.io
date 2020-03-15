@@ -31,23 +31,23 @@ $orange       : #fc6423;
 // --------------------------------------------------
 
 // Global text color on <body>
-$text-color                   : $black-light;
+$text-color                   : $grey-dark;
 
 // Global link color.
-$link-color                   : $black-light;
-$link-hover-color             : $black-deep;
-$link-decoration-color        : $grey-light;
-$link-decoration-hover-color  : $black-deep;
+$link-color                   : $grey-dark;
+$link-hover-color             : $whitesmoke;
+$link-decoration-color        : $black-dim;
+$link-decoration-hover-color  : $whitesmoke;
 
 // Global border color.
-$border-color                 : $grey-light;
+$border-color                 : $black-dim;
 
 // Background color for <body>
-$body-bg-color                : white;
+$body-bg-color                : #202020;
 
 // Selection
-$selection-bg                 : $blue-deep;
-$selection-color              : white;
+$selection-bg                 : $blue;
+$selection-color              : #202020;
 
 
 
@@ -126,16 +126,16 @@ $zindex-5       : 1050;
 // Table
 // --------------------------------------------------
 $table-width                    : 100%;
-$table-border-color             : $gray-lighter;
+$table-border-color             : $black-light;
 $table-font-size                : 14px;
 $table-content-alignment        : left;
 $table-content-vertical         : middle;
 $table-th-font-weight           : 700;
 $table-cell-padding             : 8px;
-$table-cell-border-right-color  : $gainsboro;
-$table-cell-border-bottom-color : $gray-lighter;
-$table-row-odd-bg-color         : #f9f9f9;
-$table-row-hover-bg-color       : $whitesmoke;
+$table-cell-border-right-color  : $black-dim;
+$table-cell-border-bottom-color : $black-light;
+$table-row-odd-bg-color         : #070707;
+$table-row-hover-bg-color       : $black-deep;
 
 
 
@@ -145,8 +145,8 @@ $code-font-family               : $font-family-monospace;
 $code-font-size                 : 13px;
 $code-font-size                 : if(type-of(jekyll-config('font.codes.size')) == 'number', jekyll-config('font.codes.size') + px, $code-font-size);
 $code-border-radius             : 3px;
-$code-foreground                : $black-light;
-$code-background                : $gainsboro;
+$code-foreground                : $grey-dark;
+$code-background                : $black-dim;
 
 
 
@@ -156,33 +156,33 @@ $code-background                : $gainsboro;
 $btn-font-weight                : normal;
 
 $btn-default-radius             : 0;
-$btn-default-bg                 : $black-deep;
-$btn-default-color              : white;
+$btn-default-bg                 : $whitesmoke;
+$btn-default-color              : #202020;
 $btn-default-font-size          : 14px;
 $btn-default-border-width       : 2px;
-$btn-default-border-color       : $black-deep;
-$btn-default-hover-bg           : white;
-$btn-default-hover-color        : $black-deep;
-$btn-default-hover-border-color : $black-deep;
+$btn-default-border-color       : $whitesmoke;
+$btn-default-hover-bg           : #202020;
+$btn-default-hover-color        : $whitesmoke;
+$btn-default-hover-border-color : $whitesmoke;
 
 
 
 // Pagination
 // --------------------------------------------------
 
-$pagination-border              : $gainsboro;
+$pagination-border              : $black-dim;
 
 $pagination-link-bg             : transparent;
 $pagination-link-color          : $link-color;
-$pagination-link-border         : $gainsboro;
+$pagination-link-border         : $black-dim;
 
 $pagination-link-hover-bg       : transparent;
 $pagination-link-hover-color    : $link-color;
-$pagination-link-hover-border   : $black-deep;
+$pagination-link-hover-border   : $whitesmoke;
 
-$pagination-active-bg           : $grey-light;
-$pagination-active-color        : white;
-$pagination-active-border       : $grey-light;
+$pagination-active-bg           : $black-dim;
+$pagination-active-color        : #202020;
+$pagination-active-border       : $black-dim;
 
 
 
@@ -207,7 +207,7 @@ $gap-between-main-and-footer    : 100px;
 // Headband
 // --------------------------------------------------
 $headband-height                : 3px;
-$headband-bg                    : $black-deep;
+$headband-bg                    : $whitesmoke;
 
 
 
@@ -219,20 +219,20 @@ $head-bg                        : transparent;
 
 // Site Meta
 $site-meta-text-align           : center;
-$brand-color                    : white;
-$brand-hover-color              : white;
-$brand-bg                       : $black-deep;
+$brand-color                    : #202020;
+$brand-hover-color              : #202020;
+$brand-bg                       : $whitesmoke;
 
 $logo-font-size                 : 20px;
 $logo-font-size                 : if(type-of(jekyll-config('font.logo.size')) == 'number', jekyll-config('font.logo.size') + px, $logo-font-size);
 
-$site-subtitle-color            : $grey-dark;
+$site-subtitle-color            : $grey-light;
 $subtitle-font-size             : 13px;
-$subtitle-color                 : $grey-dark;
+$subtitle-color                 : $grey-light;
 
 // Menu
 $menu-link-border               : transparent;
-$menu-link-hover-border         : $black-deep;
+$menu-link-hover-border         : $whitesmoke;
 
 
 
@@ -242,7 +242,7 @@ $posts-expand-title-font-weight : $font-weight-normal;
 $post-copyright : (
   margin: 2em 0 0,
   padding: .5em 1em,
-  bg: #f9f9f9,
+  bg: #070707,
   border: (
     width: 3px,
     style: solid,
@@ -256,9 +256,9 @@ $post-copyright : (
 $posts-collapse-left            : 55px;
 $posts-collapse-left-mobile     : 5px;
 
-$read-more-color                : white;
+$read-more-color                : #202020;
 $read-more-font-size            : 14px;
-$read-more-bg-color             : $black-deep;
+$read-more-bg-color             : $grey;
 $read-more-border-radius        : 0;
 
 
@@ -267,23 +267,23 @@ $read-more-border-radius        : 0;
 // Sidebar
 // Variables for sidebar section elements.
 // --------------------------------------------------
-$sidebar-nav-color                    : $black-light;
-$sidebar-nav-hover-color              : $whitesmoke;
-$sidebar-highlight                    : $blue-bright;
+$sidebar-nav-color                    : $grey-dark;
+$sidebar-nav-hover-color              : $black-deep;
+$sidebar-highlight                    : $blue-deep;
 
 $site-author-image-padding            : 2px;
 $site-author-image-width              : 96px;
 $site-author-image-height             : auto;
 $site-author-image-border-width       : 2px;
-$site-author-image-border-color       : $black-dim;
+$site-author-image-border-color       : $gainsboro;
 
 $site-author-name-margin              : 5px 0 0;
-$site-author-name-color               : $whitesmoke;
+$site-author-name-color               : $black-deep;
 $site-author-name-align               : center;
 $site-author-name-weight              : normal;
 
 $site-description-font-size           : 14px;
-$site-description-color               : $grey-dark;
+$site-description-color               : $grey-light;
 $site-description-margin-top          : 5px;
 $site-description-align               : center;
 
@@ -292,12 +292,12 @@ $site-state-item-count-font-size      : 18px;
 $site-state-item-count-color          : inherit;
 $site-state-item-name-font-size       : 13px;
 $site-state-item-name-color           : inherit;
-$site-state-item-border-color         : $black-dim;
+$site-state-item-border-color         : $gainsboro;
 
-$toc-link-color                       : $grey-dark;
-$toc-link-border-color                : $black-light;
-$toc-link-hover-color                 : $grey-light;
-$toc-link-hover-border-color          : $grey-light;
+$toc-link-color                       : $grey-light;
+$toc-link-border-color                : $grey-dark;
+$toc-link-hover-color                 : $black-dim;
+$toc-link-hover-border-color          : $black-dim;
 $toc-link-active-color                : $sidebar-highlight;
 $toc-link-active-border-color         : $sidebar-highlight;
 $toc-link-active-current-color        : $sidebar-highlight;
@@ -313,8 +313,8 @@ $b2t-position-bottom          : -100px;
 $b2t-position-bottom-on       : 19px;
 $b2t-position-right           : 30px;
 $b2t-font-size                : 12px;
-$b2t-color                    : white;
-$b2t-bg-color                 : $black-deep;
+$b2t-color                    : #202020;
+$b2t-bg-color                 : $whitesmoke;
 
 // full-image
 $full-image-width             : 110%;
