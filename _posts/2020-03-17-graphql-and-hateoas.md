@@ -11,6 +11,7 @@ The other day I had the chance to participate in an interesting thread in the Dr
 My position in this problem space has been known for quite a while. I think REST
 (with [HATEOAS](https://en.wikipedia.org/wiki/HATEOAS)) is a superior technology to GraphQL. This is for several
 reasons:
+<!-- more -->
 
   1. REST leverages HTTP. This is a huge advantage, GraphQL has many years of catching up to do and this seems to happen
   but creating a strong dependency on the Apollo client.
