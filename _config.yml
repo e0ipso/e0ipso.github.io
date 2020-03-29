@@ -123,6 +123,7 @@ menu:
   archives: /archives/
   tags: /tags/
   sitemap: /sitemap.xml
+  rss: /atom.xml
   #commonweal: /404.html
 
 
@@ -141,6 +142,7 @@ menu_icons:
   tags: tags
   archives: archive
   sitemap: sitemap
+  rss: rss
   commonweal: heartbeat
 
 
