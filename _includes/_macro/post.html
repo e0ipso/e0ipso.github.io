@@ -34,18 +34,18 @@
               {% if post.sticky > 0 %}
                 {{ post.sticky }}
                 <span class="post-sticky-flag" title="{{ __.post.sticky }}">
-                  <i class="fa fa-thumb-tack"></i>
+                  📌
                 </span>
               {% endif %}
               <a class="post-title-link post-title-link-external" target="_blank" href="{{ post.link }}" itemprop="url">
                 {% if post.title %}{{ post.title }}{% else %}{{  post.link }}{% endif %}
-                <i class="fa fa-external-link"></i>
+                🔗
               </a>
             {% else %}
             {% if is_index %}
                 {% if post.sticky > 0 %}
                   <span class="post-sticky-flag" title="{{ __.post.sticky }}">
-                    <i class="fa fa-thumb-tack"></i>
+                    📌
                   </span>
                 {% endif %}
                 <a class="post-title-link" href="{{ post.url | relative_url }}" itemprop="url">
@@ -60,7 +60,7 @@
           <span class="post-time">
             {% if site.post_meta.created_at %}
               <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
+                📅
               </span>
               {% if site.post_meta.item_text %}
                 <span class="post-meta-item-text">{{ __.post.posted }}</span>
@@ -76,7 +76,7 @@
 
             {% if site.post_meta.updated_at %}
               <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-check-o"></i>
+                📅
               </span>
               {% if site.post_meta.item_text %}
                 <span class="post-meta-item-text">{{ __.post.modified }}</span>
@@ -93,7 +93,7 @@
               <span class="post-meta-divider">|</span>
             {% endif %}
               <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
+                📁
               </span>
               {% if site.post_meta.item_text %}
                 <span class="post-meta-item-text">{{ __.post.in }}</span>
@@ -119,7 +119,7 @@
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
                 <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
+                  💬
                 </span>
                 <a href="{{ post.url | relative_url }}#comments" itemprop="discussionUrl">
                   <span class="post-comments-count ds-thread-count" data-thread-key="{{ post.url }}" itemprop="commentCount"></span>
@@ -129,7 +129,7 @@
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
                 <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
+                  💬
                 </span>
                 <a href="{{ post.url | relative_url }}#comments" itemprop="discussionUrl">
                   <span class="post-comments-count fb-comments-count" data-href="{{ post.url | absolute_url }}" itemprop="commentCount">0</span> comments
@@ -139,7 +139,7 @@
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
                 <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
+                  💬
                 </span>
                 <a href="{{ post.url | relative_url }}#comments" itemprop="discussionUrl">
                   <span class="post-comments-count disqus-comment-count"
@@ -151,7 +151,7 @@
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
                 <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
+                  💬
                 </span>
                 <a href="{{ post.url | relative_url }}#comments" itemprop="discussionUrl">
                   <span class="post-comments-count hc-comment-count" data-xid="{{ post.url }}" itemprop="commentsCount"></span>
@@ -162,7 +162,7 @@
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
                 <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
+                  💬
                 </span>
                 <a class="cloud-tie-join-count" href="{{ post.url | relative_url }}#comments" itemprop="discussionUrl">
                   <span class="post-comments-count join-count" itemprop="commentCount"></span>
@@ -172,7 +172,7 @@
               <span class="post-comments-count">
               <span class="post-meta-divider">|</span>
               <span class="post-meta-item-icon">
-                <i class="fa fa-comment-o"></i>
+                💬
               </span>
               {% if post.layout == 'post' %}
                 <a href="{{ post.url | relative_url }}#SOHUCS" itemprop="discussionUrl">
@@ -191,7 +191,7 @@
              <span id="{{ post.url | relative_url }}" class="leancloud_visitors" data-flag-title="{{ post.title }}">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
+                 👁
                </span>
                {% if site.post_meta.item_text %}
                  <span class="post-meta-item-text">{{__.post.visitors}} </span>
@@ -216,7 +216,7 @@
                   <span class="post-meta-divider">|</span>
                 {% endunless %}
                 <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
+                  📄
                 </span>
                 {% if site.post_wordcount.item_text %}
                   <span class="post-meta-item-text">{{ __.post.wordcount }}</span>
@@ -232,7 +232,7 @@
 
               {% if site.post_wordcount.min2read %}
                 <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
+
                 </span>
                 {% if site.post_wordcount.item_text %}
                   <span class="post-meta-item-text">{{ __.post.min2read }}</span>
@@ -389,7 +389,7 @@
           <div class="post-nav-next post-nav-item">
             {% if post.next %}
               <a href="{{ post.next.url | relative_url }}" rel="next" title="{{ post.next.title }}">
-                <i class="fa fa-chevron-left"></i> {{ post.next.title }}
+                ⏮ {{ post.next.title }}
               </a>
             {% endif %}
           </div>
@@ -399,7 +399,7 @@
           <div class="post-nav-prev post-nav-item">
             {% if post.previous %}
               <a href="{{ post.previous.url | relative_url }}" rel="prev" title="{{ post.previous.title }}">
-                {{ post.previous.title }} <i class="fa fa-chevron-right"></i>
+                {{ post.previous.title }} ⏭
               </a>
             {% endif %}
           </div>
