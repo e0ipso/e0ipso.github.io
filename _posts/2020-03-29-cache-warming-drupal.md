@@ -1,5 +1,6 @@
 ---
 title: Cache Warming in Drupal
+category: drupal
 categories:
  - web-development
  - drupal
