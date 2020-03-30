@@ -17,8 +17,8 @@
   width: 700px;
   height: 80%;
   padding: 0;
-  background: #fff;
-  color: #333;
+  background: $black-dim;
+  color: $gainsboro;
   z-index: 9999;
   border-radius: 5px;
   @include mobile() {
@@ -37,7 +37,7 @@
   }
 
   p.search-result {
-    border-bottom: 1px dashed #ccc;
+    border-bottom: 1px dashed $black-light;
     padding: 5px 0;
   }
 
@@ -47,15 +47,15 @@
   }
 
   .search-keyword {
-    border-bottom: 1px dashed #f00;
+    border-bottom: 1px dashed $blue;
     font-weight: bold;
-    color: #f00;
+    color: $blue;
   }
 
   .local-search-header {
     padding: 5px;
     height: 36px;
-    background: #f5f5f5;
+    background: $black-deep;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
   }
@@ -89,7 +89,7 @@
   .search-icon, .popup-btn-close {
     display: inline-block;
     font-size: 18px;
-    color: #999;
+    color: $grey;
     height: 36px;
     width: 18px;
     padding-left: 10px;
@@ -101,7 +101,7 @@
   }
 
   .popup-btn-close {
-    border-left: 1px solid #eee;
+    border-left: 1px solid $black-dim;
     float: right;
     cursor: pointer;
   }
