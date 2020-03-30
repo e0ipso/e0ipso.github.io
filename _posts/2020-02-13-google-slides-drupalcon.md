@@ -2,6 +2,7 @@
 title: Google Slides Made Mandatory at DrupalCon
 categories:
  - web-development
+ - drupal
 tags:
  - Open Source
  - Drupal Development

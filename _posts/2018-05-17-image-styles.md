@@ -2,6 +2,7 @@
 title: "Decoupled Drupal Hard Problems: Image Styles"
 categories:
  - web-development
+ - drupal
 tags:
  - Decoupled Drupal
  - Drupal Development

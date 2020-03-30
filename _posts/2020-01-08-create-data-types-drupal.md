@@ -3,6 +3,7 @@ title: Do define custom data types in Drupal
 categories:
  - web-development
  - notes
+ - drupal
 tags:
  - Drupal Development
 ---

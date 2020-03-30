@@ -63,6 +63,9 @@ defaults:
 # Atom feed
 feed:
   path: atom.xml
+  excerpt_only: true
+  categories:
+    - drupal
 
 # Plugins
 ## Docs: https://help.github.com/articles/configuring-jekyll-plugins/

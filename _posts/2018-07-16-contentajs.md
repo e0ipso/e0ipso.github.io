@@ -2,6 +2,7 @@
 title: Introducing Contenta JS
 categories:
  - web-development
+ - drupal
 tags:
  - nodejs
  - Contenta CMS

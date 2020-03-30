@@ -2,6 +2,7 @@
 title: Cache Warming in Drupal
 categories:
  - web-development
+ - drupal
 tags:
  - Drupal Development
 ---

@@ -2,6 +2,7 @@
 title: "Get a decorator for your Drupal home"
 categories:
  - web-development
+ - drupal
 tags:
  - Decoupled Drupal
  - Drupal Development

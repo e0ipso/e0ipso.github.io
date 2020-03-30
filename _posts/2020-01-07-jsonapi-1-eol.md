@@ -2,6 +2,7 @@
 title: JSON:API module version one EOL
 categories:
  - web-development
+ - drupal
 tags:
  - jsonapi
  - Decoupled Drupal
