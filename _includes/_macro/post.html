@@ -114,41 +114,9 @@
             </span>
           {% endif %}
 
-          {% if post.comments %}
-            {% if site.duoshuo_shortname or site.duoshuo and site.duoshuo.shortname %}
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  💬
-                </span>
-                <a href="{{ post.url | relative_url }}#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="{{ post.url }}" itemprop="commentCount"></span>
-                </a>
-              </span>
-            {% elsif site.facebook_comments_plugin.enable %}
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  💬
-                </span>
-                <a href="{{ post.url | relative_url }}#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count fb-comments-count" data-href="{{ post.url | absolute_url }}" itemprop="commentCount">0</span> comments
-                </a>
-              </span>
-            {% elsif site.disqus.enable and site.disqus.count %}
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  💬
-                </span>
-                <a href="{{ post.url | relative_url }}#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count disqus-comment-count"
-                        data-disqus-identifier="{{ post.url }}" itemprop="commentCount"></span>
-                </a>
-              </span>
-            {% elsif site.hypercomments_id %}
+          {% if post.comments and site.commento.enable %}
             <!--noindex-->
-              <span class="post-comments-count">
+            <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
                 <span class="post-meta-item-icon">
                   💬
@@ -157,54 +125,7 @@
                   <span class="post-comments-count hc-comment-count" data-xid="{{ post.url }}" itemprop="commentsCount"></span>
                 </a>
               </span>
-              <!--/noindex-->
-            {% elsif post.layout == 'post' and site.gentie_productKey %}
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  💬
-                </span>
-                <a class="cloud-tie-join-count" href="{{ post.url | relative_url }}#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count join-count" itemprop="commentCount"></span>
-                </a>
-              </span>
-            {% elsif site.changyan.enable and site.changyan.appid and site.changyan.appkey %}
-              <span class="post-comments-count">
-              <span class="post-meta-divider">|</span>
-              <span class="post-meta-item-icon">
-                💬
-              </span>
-              {% if post.layout == 'post' %}
-                <a href="{{ post.url | relative_url }}#SOHUCS" itemprop="discussionUrl">
-                  <span id="changyan_count_unit" class="post-comments-count hc-comment-count" data-xid="{{ post.url }}" itemprop="commentsCount"></span>
-                </a>
-              {% else %}
-                <a href="{{ post.url | relative_url }}#SOHUCS" itemprop="discussionUrl">
-                  <span id="url::{{ post.url | absolute_url }}" class="cy_cmt_count" data-xid="{{ post.url }}" itemprop="commentsCount" ></span>
-                </a>
-              {% endif %}
-            {% endif %}
-          {% endif %}
-
-          {% comment %} LeanCould PageView {% endcomment %}
-          {% if site.leancloud_visitors.enable %}
-             <span id="{{ post.url | relative_url }}" class="leancloud_visitors" data-flag-title="{{ post.title }}">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 👁
-               </span>
-               {% if site.post_meta.item_text %}
-                 <span class="post-meta-item-text">{{__.post.visitors}} </span>
-               {% endif %}
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          {% endif %}
-
-          {% if site.busuanzi_count.enable and site.busuanzi_count.page_pv and is_index == false or is_index == nil%}
-            <span class="post-meta-divider">|</span>
-            <span class="page-pv">{{ site.busuanzi_count.page_pv_header }}
-            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>{{ site.busuanzi_count.page_pv_footer }}
-            </span>
+            <!--/noindex-->
           {% endif %}
 
           {% if site.post_wordcount.wordcount or site.post_wordcount.min2read %}
@@ -276,6 +197,17 @@
           {% comment %} Append end tag for `post-gallery-row` when (photos size mod COLUMN_NUMBER) is less than COLUMN_NUMBER {% endcomment %}
           {% assign photos_size_modulo_COLUMN_NUMBER = post.photos.size | modulo: COLUMN_NUMBER %}
           {% if photos_size_modulo_COLUMN_NUMBER > 0 %}</div>{% endif %}
+        </div>
+      {% endif %}
+
+      {% comment %} Hero image {% endcomment %}
+      {% if post.image and is_index == nil or is_index == false %}
+        <div class="post-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+          <a class="post-gallery-img fancybox"
+             href="{{ post.image }}" rel="gallery_{{ post._id }}"
+             itemscope itemtype="http://schema.org/ImageObject" itemprop="url">
+            <img src="{{ post.image }}" itemprop="contentUrl"/>
+          </a>
         </div>
       {% endif %}
 
