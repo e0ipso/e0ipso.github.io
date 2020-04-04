@@ -63,7 +63,7 @@ defaults:
 # Atom feed
 feed:
   path: atom.xml
-  excerpt_only: true
+  excerpt_only: false
   categories:
     - drupal
 
