@@ -1,5 +1,5 @@
 ---
-title: Free Software alternatives #1: Matomo (Google Analytics)
+title: Free Software alternatives (I) - Matomo (Google Analytics)
 categories:
  - open-source
 tags:
