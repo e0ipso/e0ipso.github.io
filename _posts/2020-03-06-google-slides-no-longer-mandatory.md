@@ -1,12 +1,12 @@
 ---
 title: Google Slides no Longer Mandatory at DrupalCon
 categories:
- - web-development
- - drupal
+  - web-development
+  - drupal
 tags:
- - Open Source
- - Drupal Development
- - Privacy
+  - Free Software
+  - Drupal Development
+  - Privacy
 ---
 If you are [following this blog](/atom.xml) you probably know that the Drupal Association recently announced the call
 for proposals for Lightning Talks and they made [Google Slides mandatory](/web-development/2020/02/13/google-slides-drupalcon/).

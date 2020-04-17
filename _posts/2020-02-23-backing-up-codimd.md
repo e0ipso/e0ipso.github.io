@@ -1,9 +1,9 @@
 ---
 title: Backing up Files with CodiMD 
 categories:
- - web-development
+  - web-development
 tags:
- - Open Source
+  - Free Software
 ---
 I recently started renting a VPS server to host some of the ethical alternatives to the typical host of surveillance
 services.

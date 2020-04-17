@@ -1,10 +1,10 @@
 ---
 title: 'Maintainable Code in Drupal: Wrapped Entities'
 categories:
- - drupal
+  - drupal
 tags:
- - Open source
- - Drupal Development
+  - Free Software
+  - Drupal Development
 canonical_path: https://www.lullabot.com/articles/maintainable-code-drupal-wrapped-entities
 ---
 _This is a re-post of the article I wrote for the [Lullabot blog](https://www.lullabot.com/articles/maintainable-code-drupal-wrapped-entities)._

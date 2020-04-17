@@ -1,10 +1,10 @@
 ---
 title: Cloudflare Privacy
 categories:
- - notes
+  - notes
 tags:
- - Privacy
- - Personal
+  - Privacy
+  - Personal
 ---
 Just a moment ago I was thinking about adding a free Cloudflare CDN in front of my personal services that I self-host at
 home.

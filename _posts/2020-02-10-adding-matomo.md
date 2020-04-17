@@ -1,10 +1,10 @@
 ---
 title: Adding Matomo to my Blog
 categories:
- - web-development
+  - web-development
 tags:
- - Privacy
- - Open Source
+  - Privacy
+  - Free Software
 ---
 Yesterday I decided to add some analytics to my blog. This was not something
 that I decided lightly since web site analytics are a type of tracking. For the

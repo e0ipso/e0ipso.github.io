@@ -1,10 +1,10 @@
 ---
 title: My computer's screenshot
 categories:
- - notes
+  - notes
 tags:
- - Privacy
- - Personal
+  - Privacy
+  - Personal
 ---
 Yesterday I spent some time customizing my Linux. Today I took a screenshot. 
 <!-- more -->

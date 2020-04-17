@@ -1,10 +1,10 @@
 ---
 title: I want a GNOME notification when not connected to VPN
 categories:
- - notes
+  - notes
 tags:
- - Privacy
- - Personal
+  - Privacy
+  - Personal
 ---
 I [use a setup that ensures that I am connected to a VPN](https://mateuaguilo.com/privacy/2019/12/27/network-editor/)
 when I join certain Wi-Fi networks. However, sometimes I connect to other networks and I forget to check for the key

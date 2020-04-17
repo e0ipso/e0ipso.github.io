@@ -1,10 +1,10 @@
 ---
 title: A shift in focus on privacy
 categories:
- - privacy
+  - privacy
 tags:
- - Privacy
- - Personal
+  - Privacy
+  - Personal
 ---
 I have become more aware of my privacy and security of late. There hasn't been any particular reason for that, but a gradual process of retaking control of my data. I try to discern what core value is moving me whenever I start feeling strongly about something. In this case, is the *right of sanctuary*. This is not my term, but rather something I learned reading *The age of surveillance capitalism*.
 <!-- more -->

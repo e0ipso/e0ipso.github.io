@@ -1,11 +1,11 @@
 ---
 title: Do define custom data types in Drupal
 categories:
- - web-development
- - notes
- - drupal
+  - web-development
+  - notes
+  - drupal
 tags:
- - Drupal Development
+  - Drupal Development
 ---
 Today I was included in a conversation in Drupal Slack that reminded me how
 important it is to take the time to learn one tool well.

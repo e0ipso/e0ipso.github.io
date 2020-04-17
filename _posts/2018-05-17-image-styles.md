@@ -1,11 +1,11 @@
 ---
 title: "Decoupled Drupal Hard Problems: Image Styles"
 categories:
- - web-development
- - drupal
+  - web-development
+  - drupal
 tags:
- - Decoupled Drupal
- - Drupal Development
+  - Decoupled Drupal
+  - Drupal Development
 canonical_path: https://www.lullabot.com/articles/decoupled-drupal-hard-problems-image-styles
 ---
 _This is a re-post of the article I wrote for the [Lullabot blog](https://www.lullabot.com/articles/decoupled-drupal-hard-problems-image-styles)._

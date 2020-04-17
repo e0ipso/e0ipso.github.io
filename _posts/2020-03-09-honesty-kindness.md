@@ -1,9 +1,9 @@
 ---
 title: Candor and Kindness in Software
 categories:
- - notes
+  - notes
 tags:
- - Software
+  - Software
 ---
 There are many processes that aim to increase the quality of the software during development. A critical one is honesty.
 However, honesty can be harsh and it can be counterproductive. That's why we need to complement candor with kindness.

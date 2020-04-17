@@ -1,10 +1,10 @@
 ---
 title: Ignite Talk about Privacy
 categories:
- - privacy
+  - privacy
 tags:
- - Privacy
- - Personal
+  - Privacy
+  - Personal
 ---
 This last week I have been in Palm Springs attending the retreat of the company I work for,
 [Lullabot](https://www.lullabot.com). One of the evening activities are ignite talks. I presented one about privacy.

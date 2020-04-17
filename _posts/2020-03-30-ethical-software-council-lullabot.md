@@ -1,10 +1,10 @@
 ---
 title: Ethical Software Council at Lullabot
 categories:
- - open-source
+  - open-source
 tags:
- - Open Source
- - Ethics
+  - Free Software
+  - Ethics
 image: /assets/images/2020/ethical-council.jpg
 ---
 During this past retreat in Palm Springs, a group of us wondered about several questions regarding free software. A

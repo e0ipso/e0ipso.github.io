@@ -1,13 +1,13 @@
 ---
 title: Decoupled back-ends in the age of brand consistency
 categories:
- - web-development
+  - web-development
 tags:
- - nodejs
- - marketing
- - decoupled
- - BFF
- - patterns
+  - nodejs
+  - marketing
+  - decoupled
+  - BFF
+  - patterns
 canonical_path: https://www.lullabot.com/articles/decoupled-backends-in-the-age-of-brand-consistency
 ---
 _This is a re-post of the article I wrote for the [Lullabot blog](https://www.lullabot.com/articles/decoupled-backends-in-the-age-of-brand-consistency)._

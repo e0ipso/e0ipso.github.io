@@ -1,10 +1,10 @@
 ---
 title: HATEOAS vs GraphQL in Drupal
 categories:
- - drupal
+  - drupal
 tags:
- - Open source
- - Drupal Development
+  - Free Software
+  - Drupal Development
 ---
 The other day I had the chance to participate in an interesting thread in the Drupal Slack.
 

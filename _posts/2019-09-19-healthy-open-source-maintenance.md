@@ -1,10 +1,10 @@
 ---
 title: Healthy Open Source Maintenance
 categories:
- - open-source
+  - open-source
 tags:
- - Open source
- - Community
+  - Free Software
+  - Community
 canonical_path: https://www.lullabot.com/articles/healthy-open-source-maintenance
 ---
 _This is a re-post of the article I wrote for the [Lullabot blog](https://www.lullabot.com/articles/healthy-open-source-maintenance)._

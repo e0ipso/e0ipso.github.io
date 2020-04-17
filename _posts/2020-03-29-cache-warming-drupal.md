@@ -2,10 +2,10 @@
 title: Cache Warming in Drupal
 category: drupal
 categories:
- - web-development
- - drupal
+  - web-development
+  - drupal
 tags:
- - Drupal Development
+  - Drupal Development
 ---
 I have recorded a video tutorial highlighting some of the features of a module I created for Drupal a while ago. This is
 the [Warmer Drupal module](https://www.drupal.org/project/warmer).

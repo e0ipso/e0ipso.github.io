@@ -1,12 +1,12 @@
 ---
 title: JSON:API module version one EOL
 categories:
- - web-development
- - drupal
+  - web-development
+  - drupal
 tags:
- - jsonapi
- - Decoupled Drupal
- - Drupal Development
+  - jsonapi
+  - Decoupled Drupal
+  - Drupal Development
 canonical_path: https://wimleers.com/blog/jsonapi-1-eol
 ---
 This is a re-post of [https://wimleers.com/blog/jsonapi-1-eol](https://wimleers.com/blog/jsonapi-1-eol).

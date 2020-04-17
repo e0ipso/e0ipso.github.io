@@ -1,13 +1,13 @@
 ---
 title: Introducing Contenta JS
 categories:
- - web-development
- - drupal
+  - web-development
+  - drupal
 tags:
- - nodejs
- - Contenta CMS
- - Decoupled Drupal
- - Drupal Development
+  - nodejs
+  - Contenta CMS
+  - Decoupled Drupal
+  - Drupal Development
 ---
 Though it seems like yesterday, [Contenta CMS got the first
 stable](https://medium.com/@mateu.aguilo.bosch/contenta-cms-reaches-1-0-27cfcc3c70c6) release more than a year ago. In

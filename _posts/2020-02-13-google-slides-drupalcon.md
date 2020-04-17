@@ -1,12 +1,12 @@
 ---
 title: Google Slides Made Mandatory at DrupalCon
 categories:
- - web-development
- - drupal
+  - web-development
+  - drupal
 tags:
- - Open Source
- - Drupal Development
- - Privacy
+  - Free Software
+  - Drupal Development
+  - Privacy
 ---
 DrupalCon North America is the anual conference about the Open Source CMS, and
 it is amazing. However this year there is something we need to help fix. It

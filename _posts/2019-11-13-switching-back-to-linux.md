@@ -1,9 +1,9 @@
 ---
 title: Switching Back to Linux
 categories:
- - open-source
+  - open-source
 tags:
- - Open source
+  - Free Software
 ---
 Recently I had an incident with my Macbook Pro. My MagSafe connector was *very* hot when I got up. So hot that it gave me a blister in my finger.
 <!-- more -->

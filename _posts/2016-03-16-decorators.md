@@ -1,11 +1,11 @@
 ---
 title: "Get a decorator for your Drupal home"
 categories:
- - web-development
- - drupal
+  - web-development
+  - drupal
 tags:
- - Decoupled Drupal
- - Drupal Development
+  - Decoupled Drupal
+  - Drupal Development
 canonical_path: https://www.lullabot.com/articles/get-a-decorator-for-your-drupal-home
 ---
 _This is a re-post of the article I wrote for the [Lullabot blog](https://www.lullabot.com/articles/get-a-decorator-for-your-drupal-home)._

@@ -1,10 +1,10 @@
 ---
 title: Free Software alternatives (I) - Matomo (Google Analytics)
 categories:
- - open-source
+  - open-source
 tags:
- - Open Source
- - Free Software alternatives
+  - Free Software
+  - Free Software alternatives
 image: /assets/images/2020/free.jpg
 ---
 This is the first video of the series on Free Software alternatives to popular services that business often use.

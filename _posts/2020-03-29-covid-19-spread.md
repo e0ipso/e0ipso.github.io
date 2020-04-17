@@ -1,9 +1,9 @@
 ---
 title: Covid-19 spread explained for kids #stayhome
 categories:
- - notes
+  - notes
 tags:
- - Personal
+  - Personal
 ---
 This weekend marked week number two of house confinement in Mallorca. I wanted to come up with a way to explain our
 three year old what is going on, why he can't go to schools and how much longer he will need to remain locked. Mercè, my
