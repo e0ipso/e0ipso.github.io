@@ -1,5 +1,5 @@
 ---
-title: Please consider ethics for a hypothetical DrupalCon
+title: Please consider ethics for a hypothetical virtual DrupalCon
 categories:
   - notes
   - drupal
@@ -22,6 +22,8 @@ their annual conference [LibrePlanet](https://libreplanet.org/2020/) virtually, 
   - [Everything you need to know about LibrePlanet 2020, now fully online!](https://www.fsf.org/blogs/community/everything-you-need-to-know-about-libreplanet-2020-now-fully-online)
 
 Let's reach out to them, let's build bridges with other Free Software organizations, let's collaborate.
+
+EDIT: The Drupal Association just posted that [DrupalCon Global 2020](https://events.drupal.org/global2020) will be an entirely on-line event. I will be happy to assist the DA in figuring out the ethical solution for this conference, should the DA need it.
 
 ---
 <small>Photo by [Nowshad Arefin](https://unsplash.com/@nowshadtakes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/lighthouse?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)</small>
