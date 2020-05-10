@@ -9,6 +9,8 @@ image: /assets/images/2020/headset.jpg
 A couple of weeks ago my 1 year old daughter broke my headset. I had to wear it with tape and it would catch in my hair
 all the time, so I decided to get a new pair. After doing my research I settled with the SteelSeries Arctics 7 headset.
 
+<!-- more -->
+
 This new headset is very nice. Some of the features include:
 
   - It has a decent range when going wireless.
