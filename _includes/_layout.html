@@ -36,8 +36,11 @@
           <div id="content" class="content">
             {{ content }}
           </div>
-          {% include _third-party/duoshuo-hot-articles.html %}
           {% include _partials/comments.html %}
+          <iframe
+                  style="border: 0; height: 70px; width: 700px;"
+                  src="https://analytics.mateuaguilo.com/index.php?module=CoreAdminHome&action=optOut&language=en&backgroundColor=202020&fontColor=999999&fontSize=14px&fontFamily=%22PingFang%20SC%22%2C%20%22Microsoft%20YaHei%22%2C%20sans-serif"
+          ></iframe>
         </div>
         {% if site.sidebar.display != 'remove' %}
           {{ sidebar }}
