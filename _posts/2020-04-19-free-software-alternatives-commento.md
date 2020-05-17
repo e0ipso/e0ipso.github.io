@@ -1,5 +1,5 @@
 ---
-title: Free Software alternatives #2: Commento (Disqus)
+title: 'Free Software alternatives #2: Commento (Disqus)'
 categories:
   - open-source
 tags:

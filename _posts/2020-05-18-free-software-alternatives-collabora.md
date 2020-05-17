@@ -1,5 +1,5 @@
 ---
-title: Free Software alternatives #3: Collabora Online (Google Docs)
+title: 'Free Software alternatives #3: Collabora Online (Google Docs)'
 categories:
   - open-source
 tags:
