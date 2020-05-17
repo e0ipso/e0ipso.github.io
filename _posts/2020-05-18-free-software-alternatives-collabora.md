@@ -1,5 +1,5 @@
 ---
-title: 'Free Software alternatives #3: Collabora Online (Google Docs)'
+title: 'Free Software alternatives #3: Collabora Office (Google Docs)'
 categories:
   - open-source
 tags:
@@ -11,7 +11,7 @@ This is the third video of the series on Free Software alternatives to popular s
 
 <!-- more -->
 
-In this video I will talk about [Collabora Online](https://www.collaboraoffice.com/code/). Collabora Online is an
+In this video I will talk about [Collabora Office](https://www.collaboraoffice.com/code/). Collabora Office is an
 ethical replacement to the Google Documents suite.
 
 ![Collabora document](/assets/images/collabora-doc.png)
