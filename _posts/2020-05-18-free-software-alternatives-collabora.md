@@ -1,5 +1,5 @@
 ---
-title: Free Software alternatives #2: Commento (Disqus)
+title: Free Software alternatives #3: Collabora Online (Google Docs)
 categories:
   - open-source
 tags:
@@ -11,18 +11,15 @@ This is the second video of the series on Free Software alternatives to popular 
 
 <!-- more -->
 
-In this video I will talk about [Commento](https://www.commento.io/). Commento is an ethical replacement to the Disqus
-commenting service.
+In this video I will talk about [Collabora Online](https://www.collaboraoffice.com/code/). Collabora Online is an
+ethical replacement to the Google Documents suite.
 
-![Commento](https://cdn.commento.io/images/demo.png)
-_Example comments shown on a website_
-
-![Commento Admin](/assets/images/commento-admin.png)
-_Example admin interface for configuration_
+![Collabora document](/assets/images/collabora-doc.png)
+_Example document as integrated in Nextcloud_
 
 ### Video
 
-<iframe id='ivplayer' width='700' height='394' src='https://invidious.snopyta.org/embed/61fCZzbnOIk' style='border:none;'></iframe>
+<iframe id='ivplayer' width='700' height='394' src='https://invidious.snopyta.org/embed/JgwnhG2Nx74' style='border:none;'></iframe>
 
 ---
 <small>Photo by [Timur Kozmenko](https://unsplash.com/@timrael?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/lighthouse?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)</small>
