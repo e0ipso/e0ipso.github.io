@@ -7,7 +7,7 @@ tags:
   - Free Software alternatives
 image: /assets/images/2020/free.jpg
 ---
-This is the second video of the series on Free Software alternatives to popular services that business often use.
+This is the third video of the series on Free Software alternatives to popular services that business often use.
 
 <!-- more -->
 
