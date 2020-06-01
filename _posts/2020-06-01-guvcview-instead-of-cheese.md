@@ -56,7 +56,7 @@ After some research and testing I arrived at the conclusion that the best match 
 (`sudo apt install guvcview`). It does not have that same polished edge, but it is a fantastic piece of software! It has
 all the control I needed in Cheese and more. The only thing I could not get exactly as I wanted was that I wanted
 Guvcview to create each new recording with the date in the filename. I could not find a way to make it do that. I was
-after `$(date +'%Y-%m-%d').mkv`. I can rename the video blog entry manually, that's OK.
+after `$(date +'%Y-%m-%d').mkv`. That's not a big deal, I can rename the video blog entry manually.
 
 ![Screenshot Guvcview](/assets/images/guvcview.png)
 
