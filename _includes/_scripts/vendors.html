@@ -12,6 +12,7 @@
 {% assign js_vendors = js_vendors | append: ', ' | append: 'lazyload: jquery_lazyload/jquery.lazyload.js?v=1.9.7' %}
 {% assign js_vendors = js_vendors | append: ', ' | append: 'velocity: velocity/velocity.min.js?v=1.2.1' %}
 {% assign js_vendors = js_vendors | append: ', ' | append: 'velocity_ui: velocity/velocity.ui.min.js?v=1.2.1' %}
+{% assign js_vendors = js_vendors | append: ', ' | append: 'navigation: navigation/navigation.js' %}
 
 {% if site.fancybox %}
   {% assign js_vendors = js_vendors | append: ', ' | append: 'fancybox: fancybox/source/jquery.fancybox.pack.js?v=2.1.5' %}

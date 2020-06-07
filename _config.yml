@@ -432,10 +432,6 @@ vendors:
   # See: https://faisalman.github.io/ua-parser-js/
   ua_parser:
 
-  # Internal version: 4.6.2
-  # See: http://fontawesome.io/
-  fontawesome:
-
   # Internal version: 1.0.2
   # See: https://github.com/HubSpot/pace
   # Or use direct links below:
@@ -467,10 +463,8 @@ vendors:
   # https://github.com/zproo/canvas-ribbon
   canvas_ribbon:
 
-  # Internal version: 3.3.0
-  # https://github.com/ethantw/Han
-  han:
-
+  # Custom navigation.
+  navigation:
 
 # Assets
 css: assets/css
