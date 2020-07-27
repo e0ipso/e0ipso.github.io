@@ -6,7 +6,6 @@ categories:
   - php
 tags:
   - Web Development
-image: /assets/images/2020/switch.jpg
 ---
 Recently I had to install [XHGui](https://github.com/perftools/xhgui) in my local environment to profile my PHP application. My goal
 was to have an easy way to compare two different executions of my request, one with my
