@@ -13,7 +13,7 @@ This is the first video of the series on Free Software alternatives to popular s
 
 In this first video I will talk about [Matomo](https://matomo.org) (formerly known as Piwik). Matomo is a superb ethical replacement to Google Analytics.
 
-<div class="video-wrapper"><iframe id='ivplayer' allowfullscreen width='100%' src='https://www.invidio.us/embed/N-oHo1KeXBU' style='border:none;'></iframe></div>
+<div class="video-wrapper"><iframe allowfullscreen src='https://www.invidio.us/embed/N-oHo1KeXBU' ></iframe></div>
 
 ---
 <small>Photo by [Timur Kozmenko](https://unsplash.com/@timrael?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/lighthouse?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)</small>
