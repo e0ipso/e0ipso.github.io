@@ -16,4 +16,4 @@ Cache warming may not be a critical piece for sites with a lot of traffic, becau
 However, it is critical for these sites to deploy with warm caches after a release that cleared all caches. This will
 prevent overloading the server or even [cache stampedes](https://en.wikipedia.org/wiki/Cache_stampede).
 
-<iframe id='ivplayer' width='700' height='394' src='https://invidious.snopyta.org/embed/0gid-4LT4LM' style='border:none;'></iframe>
+<div class="video-wrapper"><iframe id='ivplayer' allowfullscreen allowfullscreen width='100%' src='https://www.invidio.us/embed/0gid-4LT4LM' style='border:none;'></iframe></div>

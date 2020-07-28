@@ -22,7 +22,7 @@ _Example admin interface for configuration_
 
 ### Video
 
-<iframe id='ivplayer' width='700' height='394' src='https://invidious.snopyta.org/embed/61fCZzbnOIk' style='border:none;'></iframe>
+<div class="video-wrapper"><iframe id='ivplayer' allowfullscreen width='100%' src='https://www.invidio.us/embed/61fCZzbnOIk' style='border:none;'></iframe></div>
 
 ---
 <small>Photo by [Timur Kozmenko](https://unsplash.com/@timrael?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/lighthouse?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)</small>
