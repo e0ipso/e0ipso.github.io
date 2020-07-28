@@ -129,6 +129,8 @@ page. That will cause XHGui to notify XHProf to record the profile information.
 Now head out to your local installation of the XHGui site. Mine is at https://xhgui.mateuaguilo.com.
 You should see that you have profile information on the page you just executed.
 
+![Screenshot of XHGui](/assets/images/xhgui-screenshot.png)
+
 Note that the code for `profiler.enabled` will set a cookie once you request profiling the first
 time. After that you will not need to use `?_start_xhprof` for the next 1 hour, all the executions
 will be profiled. If you want to stop collecting profile information before the timeout, you can
