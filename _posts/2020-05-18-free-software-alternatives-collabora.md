@@ -19,7 +19,7 @@ _Example document as integrated in Nextcloud_
 
 ### Video
 
-<div class="video-wrapper"><iframe allowfullscreen src='https://invidious.snopyta.org/embed/JgwnhG2Nx74' ></iframe></div>
+<div class="video-wrapper"><iframe allowfullscreen src='https://youtube.com/embed/JgwnhG2Nx74' ></iframe></div>
 
 ---
 <small>Photo by [Timur Kozmenko](https://unsplash.com/@timrael?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/lighthouse?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)</small>

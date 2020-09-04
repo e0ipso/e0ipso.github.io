@@ -8,7 +8,7 @@ tags:
   - parenting
 image: /assets/images/2020/webcam.jpg
 ---
-I have been experiencing [significant slowness](https://invidious.snopyta.org/watch?v=JgwnhG2Nx74) in my webcam using cheese. I
+I have been experiencing [significant slowness](https://youtube.com/watch?v=JgwnhG2Nx74) in my webcam using cheese. I
 have moved to Guvcview now, and I am very happy with the move.
 
 Almost a year ago I started a private video blog project. I sit in front of the camera and address to my kids as if they

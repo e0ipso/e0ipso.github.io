@@ -16,8 +16,8 @@ him to know what is going on, and I wanted the information to come from me.
 
 This is the recording I made in **Catalan**, my primary language. I made this for my local community.
 
-<div class="video-wrapper"><iframe allowfullscreen src='https://invidious.snopyta.org/embed/uIk9Bba06Ak' ></iframe></div>
+<div class="video-wrapper"><iframe allowfullscreen src='https://youtube.com/embed/uIk9Bba06Ak' ></iframe></div>
 
 This is the recording I made in **English**.
 
-<div class="video-wrapper"><iframe allowfullscreen src='https://invidious.snopyta.org/embed/1Fqle3BH6Ec' ></iframe></div>
+<div class="video-wrapper"><iframe allowfullscreen src='https://youtube.com/embed/1Fqle3BH6Ec' ></iframe></div>
