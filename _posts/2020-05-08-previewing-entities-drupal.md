@@ -19,4 +19,4 @@ When prompted, many people ask: _Wait! that is not the default behavior already?
 
 Have you ever wanted to preview a listing from a view (or a block, or a layout builder page, ...) with the latest version of the embedded entities? This module allows you to do that.
 
-<div class="video-wrapper"><iframe allowfullscreen src='https://www.invidio.us/embed/kmgsNEWYtrQ' ></iframe></div>
+<div class="video-wrapper"><iframe allowfullscreen src='https://invidious.snopyta.org/embed/kmgsNEWYtrQ' ></iframe></div>
