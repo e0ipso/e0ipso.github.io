@@ -22,9 +22,10 @@ interpreted as multiple values for the field.  Learn more at [Comma Separated St
 
 <h4>Step 1</h4>
 Configure your text field to use the new widget.
-<img src="/assets/images/comma-separated-string-widget-2.png" alt="Screenshot of the configuration" />
+![Screenshot of the configuration](/assets/images/comma-separated-string-widget-2.png)
 
 <h4>Step 2</h4>
 Profit.
-<img src="/assets/images/comma-separated-string-widget.png" alt="Screenshot of the widget" />
+![Screenshot of the widget](/assets/images/comma-separated-string-widget.png)
+
 <small>Photo by <a href="https://unsplash.com/@brookanderson?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Brook Anderson</a> on <a href="https://unsplash.com/s/photos/ropes?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></small>
