@@ -1,5 +1,5 @@
 ---
-title: Typed Entity makes your code more maintainable
+title: Comma Separated String Widget for Drupal
 category: drupal
 categories:
   - web-development
