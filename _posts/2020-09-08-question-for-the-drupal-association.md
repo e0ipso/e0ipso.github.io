@@ -25,7 +25,7 @@ That is regardless of their affiliation and/or feelings towards the association.
 On that vein I asked all candidates this:
 
 ---
- <p><em>Excuse me if I make no sense in my questions. I am no lawyer either, and the U.S. is not my home country. My questions are framed around legal figures, however I only intend to get a sense of what your values are as a potential director are.</em></p>
+ <p><em>Excuse me if I make no sense in my questions. I am no lawyer either, and the U.S. is not my home country. My questions are framed around legal figures, however I only intend to get a sense of what your values are as a potential director.</em></p>
  
  <p>The Drupal Association (DrupalCon Inc.) currently declares itself as a <a href="https://www.irs.gov/charities-non-profits/charitable-organizations/exemption-requirements-501c3-organizations">501(c)(3)</a> (as per <a href="https://apps.irs.gov/pub/epostcard/cor/271138640_201812_990_2019101616750688.pdf">2018's tax filing</a>). According to <a href="https://www.irs.gov/charities-non-profits/charitable-organizations/inurement-private-benefit-charitable-organizations">the IRS website</a>:</p>
  
