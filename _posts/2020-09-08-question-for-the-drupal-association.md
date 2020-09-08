@@ -1,10 +1,8 @@
 ---
-title: Question about the Drupal Association's mission
+title: "Question about the Drupal Association's mission"
 category: drupal
-categories:
-  - web-development
-  - drupal
 tags:
+  - Software Ethics
   - Drupal Development
 ---
 The Drupal Association is running an election to one seat for the board of directors from the
