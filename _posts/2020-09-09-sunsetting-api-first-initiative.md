@@ -9,7 +9,7 @@ tags:
   - Drupal Development
 image: /assets/images/2020/sunset.jpg
 ---
-TL;DR: we are putting an official end to the [API-first initiative](https://www.drupal.org/project/ideas/issues/2757967) although we don't consider our work done. The initiative leads have struggled to find availability or energy to keep moving it forward. The [upcoming JS components initiative](https://www.drupal.org/blog/state-of-drupal-presentation-july-2020) will likely light this flame back up, and we'll be there to assist and guide in their API endeavors.
+TL;DR: we are putting an official end to the [API-first initiative](https://www.drupal.org/project/ideas/issues/2757967) although we don't consider our work done. The initiative leads have struggled to find availability or energy to keep moving it forward. The [upcoming JS components initiative](https://www.drupal.org/blog/state-of-drupal-presentation-july-2020) will likely light this flame back up, and we'll be there to assist and guide in their API endeavors. [This patch](https://www.drupal.org/project/drupal/issues/3170020) removes the initiative from the MAINTAINERS.txt. 
 
 <!-- more -->
 
