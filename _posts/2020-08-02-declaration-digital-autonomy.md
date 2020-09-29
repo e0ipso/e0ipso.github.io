@@ -15,7 +15,7 @@ Spanish translation may come soon after.
 
 <!-- more -->
 
-The original wording in English is at: https://techautonomy.org.
+The original wording in English is at: [https://techautonomy.org](https://techautonomy.org/).
 
 Note that I am not a linguist nor a professional translator. Please submit any feedback using the
 comments below or contacting me as described in the [About](/about) page.
