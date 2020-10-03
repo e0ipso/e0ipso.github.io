@@ -59,7 +59,7 @@ function simple_oauth_companion_simple_oauth_oidc_claims_alter(array &amp;$claim
 
 <h3>Final result</h3>
 
-<p>If all went well the OIDC claims will not contain the additional <code class="language-php">phone_number</code> claim, like below. Check the <code class="language-php">/oauth/userinfo</code> endpoint to see if the data is available.</p>
+<p>If all went well the OIDC claims will now contain the additional <code class="language-php">phone_number</code> claim, like below. Check the <code class="language-php">/oauth/userinfo</code> endpoint to see if the data is available.</p>
 
 <pre>
 <code class="language-javascript language-php">{
