@@ -1,5 +1,6 @@
 ---
 title: 'A standard for progressive decoupled Drupal'
+category: drupal
 categories:
   - web-development
   - drupal
