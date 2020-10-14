@@ -32,7 +32,6 @@ without some/all of those issues.
 
 My final set up involves the ProtonVPN CLI program for Linux, and some systemd scripts.
 
-Up
 ## 1. ProtonVPN CLI setup
 First I installed the ProtonVPN CLI using [the official documentation](https://protonvpn.com/support/linux-vpn-tool/).
 The documentation also includes instructions on how to set up the CLI. This is very well detailed
