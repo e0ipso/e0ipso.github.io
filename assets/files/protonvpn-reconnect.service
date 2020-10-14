@@ -1,0 +1,19 @@
+[Unit]
+Description=ProtonVPN-CLI reconnect after sleep
+Requires=network-online.target
+After=suspend.target
+After=hibernate.target
+After=hybrid-sleep.target
+
+[Service]
+Type=forking
+Environment=PVPN_WAIT=300
+Environment=PVPN_DEBUG=1
+Environment=SUDO_USER=[YOUR-USERNAME-HERE]
+ExecStart=/usr/local/bin/protonvpn c -f
+
+
+[Install]
+WantedBy=suspend.target
+WantedBy=hibernate.target
+WantedBy=hybrid-sleep.target
