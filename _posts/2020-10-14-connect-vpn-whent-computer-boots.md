@@ -165,4 +165,9 @@ Then add this in a new line:
 @hourly /usr/local/bin/protonvpn disconnect && /usr/local/bin/protonvpn connect -f
 ``` 
 
+## Sources
+I found the systemd scripts in:
+  - [The official documentation for the CLI tool](https://github.com/ProtonVPN/linux-cli/blob/master/USAGE.md#via-systemd-service).
+  - [A reddit post for the ProtonVPN subreddit](https://www.reddit.com/r/ProtonVPN/comments/i2f7j5/solution_to_reconnecting_protonvpn_after/).
+
 <small>Photo by <a href="https://unsplash.com/@extaf_ms?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Misha Feshchak</a> on <a href="https://unsplash.com/s/photos/cybersecurity?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></small>
