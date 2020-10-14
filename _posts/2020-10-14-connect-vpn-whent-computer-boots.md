@@ -165,10 +165,10 @@ Then add this in a new line:
 @hourly /usr/local/bin/protonvpn disconnect && /usr/local/bin/protonvpn connect -f
 ``` 
 
-## I wish...
-My only issue is that I don't have a visual queue in my desktop environment to remind me that I am
-(dis)connected to the VPN. I will do some research on this and update the article if I find anything
-relevant. 
+## Add a visual queue in GNOME
+Since I want to know that I am connected by looking at my GNOME bar I installed
+[this GNOME extension](https://extensions.gnome.org/extension/3133/protonvpn-status/). It worked
+without issue for me.
 
 ## Sources
 I found the systemd scripts in:
