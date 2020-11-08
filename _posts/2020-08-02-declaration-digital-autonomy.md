@@ -1,5 +1,5 @@
 ---
-title: 'Declaration of Digital Autonomy'
+title: 'Declaration of Digital Autonomy (Catalan translation)'
 categories:
   - privacy
 tags:
@@ -30,7 +30,7 @@ Ens hem tornat més dependents que mai en la tecnologia que incorporem a cada as
 
 És l'hora de canviar el nostre destí digital.
 
-Creiem que és necessari que la tecnologia proporcioni la capacitat de: consentiment informat de l'ús; desenvolupament i operació de la tecnologia transparents; privacitat i seguretat enfront d'actors maliciosos; la tecnologia ha de funcionar en els termes de la gent que l'usa; funcionalitat a dins i fora de xarxes connectades; ús d'altres serveis i programar, amb llibertat de reparació; i connexió, no alienació, de la tecnologia en si mateixa i el que es crea amb ella.
+Creiem que és necessari que la tecnologia proporcioni la capacitat de: consentiment informat de l'ús; desenvolupament i operació de la tecnologia transparents; privacitat i seguretat enfront d'actors maliciosos; la tecnologia ha de funcionar en els termes de la gent que l'usa; funcionalitat a dins i fora de xarxes connectades; ús d'altres serveis i programari, amb llibertat de reparació; i connexió, no alienació, de la tecnologia en si mateixa i el que es crea amb ella.
 
 Per tant fem una crida per a l'adopció dels següents principis per a tecnologia ètica:
 
