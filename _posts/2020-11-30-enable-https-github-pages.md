@@ -18,7 +18,7 @@ respecting services in my server for things like [comments](https://commento.io)
 `http://mateuaguilo.com` from the GitHub Pages configuration. This lead to the
 [RSS feed](https://mateuaguilo.com/atom.xml) to contain all links as HTTP 😱.
 
-I logged-in to the repository and navigate to the GitHub Pages settings. Now there is an option
+I logged-in to the repository and navigated to the GitHub Pages settings. Now there is an option
 to enforce HTTPS. This fixed the RSS feed.
 
 ![GitHub pages settings for this blog's repository](/assets/images/github-pages-https.png)
