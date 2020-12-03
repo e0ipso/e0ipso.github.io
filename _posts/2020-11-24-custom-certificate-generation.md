@@ -59,9 +59,9 @@ amazing), a PHP program, etc. I learned how to do this in
 
 ```
 # First transform the .pem into a .crt.
-openssl x509 -outform der -in myCA.pem -out myCA.crt
+openssl crl2pkcs7 -nocrl -certfile myCA.pem | openssl pkcs7 -print_certs -out myCA.crt
 # Copy the ca-certificate where the OS expects it.
-sudo cp myCA.crt /usr/local/share/ca-certificate
+sudo cp myCA.crt /usr/local/share/ca-certificates
 # Update the certificates to pick it up.
 sudo update-ca-certificates
 ```
