@@ -10,14 +10,14 @@ Recently I read "[Click Here to Kill Everybody](https://www.schneier.com/books/c
 really recommend this book to anyone. It is not targeted to a technical audience, although you might
 enjoy it a tiny bit extra if you are familiar with cyber security.
 
-In this post I want to highlight one of my favorite parts, where Schneier lists the principles
-vendors of Internet enabled products should follow for a safer world.
+In this post I want to highlight one of my favorite parts, where Schneier lists ten principles to
+secure our devices.
 
 <!-- more -->
 
-In chapter 6 _What a Secure Internet+ looks like_, Schneier lists 10 principles to secure our
-devices. I am transcribing these quoted from my audiobook, so they may be inexact, but the meaning is
-the same.
+In chapter 6 _What a Secure Internet+ looks like_, Schneier lists ten principles vendors of Internet
+enabled products should follow for a safer world. _I am transcribing these quoting them from my
+audiobook, so they may be inexact, but the spirit is intact._
 
 1. **Be transparent**. Vendors should clearly state how their security works, which threads they secure against and which they don't. [...]
 2. **Make the software patchable**. [...] vendors also need to patch quickly, once vulnerabilities are discovered. [...]
