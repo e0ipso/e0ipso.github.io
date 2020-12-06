@@ -16,7 +16,8 @@ I host this site on GitHub pages as static HTML + JS + CSS. Then I self-host oth
 respecting services in my server for things like [comments](https://commento.io) and
 [analytics](https://matomo.org/). My Jekyll plugin for the feed generation was detecting the URL as
 `http://mateuaguilo.com` from the GitHub Pages configuration. This lead to the
-[RSS feed](https://mateuaguilo.com/atom.xml) to contain all links as HTTP 😱.
+[RSS feed](https://mateuaguilo.com/atom.xml) to contain all links as HTTP 😱, even if I added HTTPS
+a while ago.
 
 I logged-in to the repository and navigated to the GitHub Pages settings. Now there is an option
 to enforce HTTPS. This fixed the RSS feed.
