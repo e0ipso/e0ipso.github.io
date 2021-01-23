@@ -7,7 +7,7 @@ categories:
 tags:
   - drupal
 ---
-Yesterday I had an interesting conversation about the principles of decoupled Drupal with Gabe Sullice in the context of menus. We agree that decoupled Drupal should not be only about websites, there are plenty solutions for that already. However, we hold slightly different visions on how to go about this.
+Yesterday I had an interesting conversation about the principles of decoupled Drupal with Gabe Sullice in the context of menus. We agree that decoupled Drupal should not be only about websites, there are plenty solutions for that already. Not picking sides with the web prepares Drupal for the future. However, we hold slightly different visions on how to go about this.
 
 What is your view?
 
