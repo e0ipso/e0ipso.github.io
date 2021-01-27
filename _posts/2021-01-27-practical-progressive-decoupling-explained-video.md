@@ -12,7 +12,7 @@ tags:
 image: /assets/images/2021/land.jpg
 ---
 I recently recorded a video series tutorial about progressive Drupal decoupling. In this series I
-take two of the official React app examples and turn it into a _widget_. You Drupal editorial team
+take two of the official React app examples and turn them into _widgets_. Your Drupal editorial team
 can then embed those React applications (a calculator, and an emoji selector) as blocks in a page, as
 a field in a content type, as an embedded entity in the body field using the WYSIWYG, ...
 
