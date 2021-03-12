@@ -328,7 +328,7 @@ mathjax:
 han: false
 
 commento:
- enable: true
+ enable: false
  domain: comments.mateuaguilo.com
 
 # Local search
