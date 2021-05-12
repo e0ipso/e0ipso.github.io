@@ -32,7 +32,7 @@ Steps
 4. Execute locally.
 5. Deploy application.
 
-<div class="video-wrapper"><iframe allowfullscreen src='https://youtube.com/embed/dYaVNL7xmB0'></iframe></div>
+<div class="video-wrapper"><iframe sandbox="allow-same-origin allow-scripts allow-popups" src="https://video.mateuaguilo.com/videos/embed/614182d9-7107-4dbd-b024-c9798d8d8457" frameborder="0" allowfullscreen></iframe></div>
 
 ## #2 The Registry & the App Catalog
 
@@ -40,13 +40,13 @@ The widget registry is the place where you aggregate your widgets (and other peo
 
 This piece plays a fundamental role in the governance of your project(s). You can choose to have a single registry for all your Drupal installations, or one registry per project. You can use the pull requests to gatekeep what versions are added to the registry and who can publish them. The idea is that the owner of the widget-registry project has the authority of accepting PRs to add/update widgets so they are available in the registry (and therefore in Drupal).
 
-<div class="video-wrapper"><iframe allowfullscreen src='https://youtube.com/embed/pNHNGs_W0cs'></iframe></div>
+<div class="video-wrapper"><iframe sandbox="allow-same-origin allow-scripts allow-popups" src="https://video.mateuaguilo.com/videos/embed/79a86069-a5ea-4daf-9b0e-67dfc442915a" frameborder="0" allowfullscreen></iframe></div>
 
 ## #3 Set up Progressive Decoupled Drupal
 In this video we will learn how to connect Drupal and the widget registry to let editors embed JS applications all over Drupal (that includes support for i18n!).
 
 You can, for instance, embed JS applications as blocks, as a field for a content type, in the body field as an entity embed, ...
 
-<div class="video-wrapper"><iframe allowfullscreen src='https://youtube.com/embed/LX808DtJB8Y'></iframe></div>
+<div class="video-wrapper"><iframe sandbox="allow-same-origin allow-scripts allow-popups" src="https://video.mateuaguilo.com/videos/embed/2883aa99-8438-48c5-8cd8-ccbc844f0d79" frameborder="0" allowfullscreen></iframe></div>
 
 <small>Photo by <a href="https://unsplash.com/@sotti?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Shifaaz shamoon</a> on <a href="https://unsplash.com/collections/4687121/increment-collection?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></small>

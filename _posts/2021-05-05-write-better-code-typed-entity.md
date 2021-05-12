@@ -16,7 +16,7 @@ the presentation, then recorded myself giving the talk.
 <!-- more -->
 _This is a re-post of the article on the [Lullabot blog](https://www.lullabot.com/articles/write-better-code-typed-entity)._
 
-<div class="video-wrapper"><iframe width="560" height="315" sandbox="allow-same-origin allow-scripts allow-popups" src="https://video.mateuaguilo.com/videos/embed/6da46367-2ac7-40d1-b561-095b991f7dd2" frameborder="0" allowfullscreen></iframe></div>
+<div class="video-wrapper"><iframe sandbox="allow-same-origin allow-scripts allow-popups" src="https://video.mateuaguilo.com/videos/embed/6da46367-2ac7-40d1-b561-095b991f7dd2" frameborder="0" allowfullscreen></iframe></div>
 
 <a href="https://mateuaguilo.com/assets/documents/write-better-code-with-typed-entity.pdf">Slides available here</a>.
 
