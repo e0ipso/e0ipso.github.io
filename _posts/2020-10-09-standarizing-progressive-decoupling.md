@@ -16,7 +16,7 @@ You can fork these tools, and with a couple of clicks you will get a demo of pro
 
 It is important to note that this is not only my work. This is a team effort that I collaborated with. Team mates Zequi Vázquez, Ian Whitcomb, and Hunter MacDermut are also the main authors of different parts of the system. I cleaned it up and made it generic so it could be shared as free software. 
 
-<div class="video-wrapper"><iframe allowfullscreen src='https://youtube.com/embed/SdDEbP-vtZg' ></iframe></div>
+<div class="video-wrapper"><iframe sandbox="allow-same-origin allow-scripts allow-popups" src="https://video.mateuaguilo.com/videos/embed/82898c47-2dd7-4e19-9dd9-fbd9a815e9a5" frameborder="0" allowfullscreen></iframe></div>
 
 ## Screenshots
 
