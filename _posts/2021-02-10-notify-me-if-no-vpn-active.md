@@ -39,6 +39,17 @@ if [ $(/usr/sbin/ip address|grep "[0-9][0-9]*: tun[0-9][0-9]*: "|wc -l) -eq 0 ];
 fi
 ```
 
+I have seen that `notify-send` sometimes does not show notifications when running from cron. I have seen that in
+Ubuntu. If that is your case, try adding `XDG_RUNTIME_DIR=/run/user/$(id -u)` at the end.
+
+```shell
+#!/bin/bash
+
+if [ $(/usr/sbin/ip address|grep "[0-9][0-9]*: tun[0-9][0-9]*: "|wc -l) -eq 0 ]; then
+	XDG_RUNTIME_DIR=/run/user/$(id -u) notify-send -u critical "VPN connection not detected." -a OpenVPN;
+fi
+```
+
 Then type `crontab -e` to edit your cron jobs and add the following line:
 
 ```shell
