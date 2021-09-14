@@ -3,7 +3,7 @@ title: 'Write better code with Typed Entity'
 category: drupal
 categories:
   - web-development
-  - drupal 
+  - drupal
 tags:
   - Drupal Development
 image: /assets/images/2021/laptop.jpg
@@ -161,7 +161,7 @@ Here is a more refined approach:
 function physical_media_node_access(NodeInterface $node, $op, AccountInterface $account) {
   try {
     $wrapped_node = typed_entity_repository_manager()->wrap($node);
-  }  
+  }
   catch (RepositoryNotFoundException $exception) {
     return AccessResult::neutral();
   }
@@ -319,5 +319,4 @@ Typed Entity can help you make your code more testable, discoverable, maintainab
 
 All of this leads to a codebase that is easier to expand and cheaper to maintain.
 
-<small>Photo by <a href="https://unsplash.com/@jstrippa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">James Harrison</a> on <a href="https://unsplash.com/@jstrippa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></small>
-  
+<small>Photo by <a href="https://unsplash.com/@jstrippa">James Harrison</a> on <a href="https://unsplash.com/@jstrippa">Unsplash</a></small>
