@@ -18,7 +18,7 @@ _This is a re-post of the article on the [Lullabot blog](https://www.lullabot.co
 
 <a href="https://mateuaguilo.com/assets/documents/new-standard-progressive-decoupling.pdf">Slides available here</a>.
 
-<p>Decoupling separates the system that stores the content from how that content is displayed on other independent systems. This can come with many benefits but also some downsides and tradeoffs. <a href="https://www.lullabot.com/articles/should-you-decouple" target="_blank">Go in with both eyes open as you decide whether to decouple or not</a>.</p>
+<p>Decoupling separates the system that stores the content from how that content is displayed on other independent systems. This can come with many benefits but also some downsides and tradeoffs.</p>
 
 <p>With progressive decoupling, you can get some of the benefits of decoupling while avoiding some of the downsides.</p>
 
@@ -187,7 +187,7 @@ status: 'stable',
   const element = document.getElementById(instanceId);
   const title = element.getAttribute('data-button-text');
   ReactDOM.render(
-    &lt;Widget title={title} /&gt;,
+    <Widget title={title} />,
     element,
   );
 };
@@ -282,7 +282,5 @@ status: 'stable',
 	<li><a href="https://video.mateuaguilo.com/w/g2jKiesKjYSreig8abrKFh" target="_blank">The registry and the app catalog</a></li>
 	<li><a href="https://video.mateuaguilo.com/w/61aG9Y8xW7m5anwupKCL84" target="_blank">Set up Progressive Decoupled Drupal</a></li>
 </ul>
-
-<p>Lullabot has been helping companies take advantage of progressive decoupling for years and on websites that get a lot of traffic. This paradigm is battle-tested. If you want help getting started, please <a href="https://www.lullabot.com/contact" target="_blank">contact us</a>.</p>
 
 <small>Photo by <a href="https://unsplash.com/@polarmermaid">Anne Nygård</a> on <a href="https://unsplash.com/@polarmermaid">Unsplash</a></small>
