@@ -222,12 +222,12 @@ With Typed Entity, the Drush command receives the book repository via dependency
 
 <figure>
   <img src="/assets/images/bundles-2.png" style="background-color: white; padding: 15px" alt="Diagram" />
-  <figcaption>The book repository is in charge of operations on multiple books. Each object can be an AudioBook, a plain Book, etc.</figcaption> 
+  <figcaption>The book repository is in charge of operations on multiple books. Each object can be an AudioBook, a plain Book, etc.</figcaption>
 </figure>
 
 ### **Other Useful Features**
 
-In addition to the features above, Typed Entity also introduces the concept of [_renderers_](https://git.drupalcode.org/project/typed_entity/-/blob/4.x/src/Render/TypedEntityRendererInterface.php). Renderers are business objects for rendering an entity. They facilitate writing code for `[hook_preprocess](https://api.drupal.org/api/drupal/core!lib!Drupal!Core!Render!theme.api.php/function/hook_preprocess)`, `[hook_entity_view_alter](https://api.drupal.org/api/drupal/core!lib!Drupal!Core!Entity!entity.api.php/function/hook_entity_view_alter)`, and `[hook_entity_display_build_alter](https://api.drupal.org/api/drupal/core!lib!Drupal!Core!Entity!entity.api.php/function/hook_entity_display_build_alter)` in a more reusable and testable way. They also allow you to organize the business logic for rendering a particular entity. Renderers exist as a statement to say: _rendering entities into HTML is the most common goal for them to exist,_ _so_ _let's provide helpers for that custom code to be more manageable._
+In addition to the features above, Typed Entity also introduces the concept of [_renderers_](https://git.drupalcode.org/project/typed_entity/-/blob/4.x/src/Render/TypedEntityRendererInterface.php). Renderers are business objects for rendering an entity. They facilitate writing code for [`hook_preprocess`](https://api.drupal.org/api/drupal/core!lib!Drupal!Core!Render!theme.api.php/function/hook_preprocess), [`hook_entity_view_alter`](https://api.drupal.org/api/drupal/core!lib!Drupal!Core!Entity!entity.api.php/function/hook_entity_view_alter), and [`hook_entity_display_build_alter`](https://api.drupal.org/api/drupal/core!lib!Drupal!Core!Entity!entity.api.php/function/hook_entity_display_build_alter) in a more reusable and testable way. They also allow you to organize the business logic for rendering a particular entity. Renderers exist as a statement to say: _rendering entities into HTML is the most common goal for them to exist,_ _so_ _let's provide helpers for that custom code to be more manageable._
 
 Typed Entity also comes with a sub-module for developers called Typed Entity UI. This tries to help with onboarding new developers into a project so that they can see the business objects for entities with a glance. Something similar for bundle classes would also be useful.
 
